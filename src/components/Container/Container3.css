@@ -1,0 +1,53 @@
+
+
+/* ContainerStyles.css */
+
+.container3 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #21357c;
+  }
+  
+  .container3:hover {
+    transform: translateY(-5px); /* Example hover effect */
+  }
+  
+  .container3 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color:white;
+  }
+  
+  .container3 p {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 15px;
+    color:white
+  }
+  
+  .container3 button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+    display: center;
+    margin-left: 50px;
+  }
+  
+  .container3 button:hover {
+    background-color: #0056b3;
+  }
+  .c3 {
+    margin-left:20px;
+  }
+  .But{
+    margin-top:65px;
+  }

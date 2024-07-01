@@ -1,0 +1,48 @@
+.logo {
+    height: 60px; /* Adjust the height as per your requirement */
+    margin-right: 200px;
+    margin-left:0px /* Optional: Add margin for spacing */
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 35px;
+  }
+  .navbar-nav .dropdown-menu {
+    margin-top: 20px; /* Space between dropdown and its items */
+    /*background-color: black;*/
+    text-emphasis-color: white;
+  
+  }
+  .navbar-nav .dropdown-menu .dropdown-item {
+    padding: 10px 15px; /* Padding for dropdown items */
+  }
+  
+  .navbar-nav .dropdown-menu .dropdown-divider {
+    margin: 0; /* Remove margin for dropdown divider */
+  }
+  
+  .navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0; /* Remove margin for last nav link */
+  }
+  
+  .navbar-nav .dropdown-hover:hover .dropdown-menu {
+    display:inline;
+  }
+  
+  .navbar-nav .nav-item:last-child .btn {
+    margin-left: 10px; /* Space between last nav link and button */
+  }
+
+  .header .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+.Button{
+    margin-left:325px;
+    width: 120px;
+    height:50px;
+}
+.containernav{
+  background-color: transparent;
+}
+
