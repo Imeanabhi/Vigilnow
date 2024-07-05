@@ -1,103 +1,274 @@
-.header-title1{
-    margin-top:100px;
-    margin-left:150px;
-    color:rgb(21, 20, 20);
-    font-weight: bold;
-    font-family:serif;
-    height:60%;
-    font-size:3em;
+.header-title3{
+  margin-top:60px;
+  margin-left:150px;
+  color:rgb(21, 20, 20);
+  font-weight: bold;
+  font-family:serif;
+  height:60%;
+  font-size:3em;
 }
 h2 strong{
-    color:blue;
-    font-style: inherit;
-   
+  color:blue;
+  font-style: inherit;
 
-  }
-  p{
-    margin-top: 40px;
-    margin-left:150px;
-    font-size: 30px;
-  }
+}
+p{
+  margin-top: 40px;
+  margin-left:150px;
+  font-size: 30px;
+}
 .header-containerr{
-    display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: space-between; /* Ensure the image is to the right */
-    padding: 10px;
-    background-color: #f0f0f0; /* Optional: background color */
-    border-radius: 8px; /* Optional: rounded corners */
-    margin-top: 100px;
-    margin-left:-40px;
-    width:px;
-    background-color: transparent;
-    font-size: large;
-  }
-  
-  .header-title {
-    margin-top:px;
-    font-size: 1.5em; /* Adjust font size as needed */
-    margin: 0;
-    width:10%;
-    padding-right: 30px; /* Space between text and image */
-    margin-left:150px;
-    margin-right:10px;
-  }
-  
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Ensure the image is to the right */
+  padding: 10px;
+  background-color: #f0f0f0; /* Optional: background color */
+  border-radius: 8px; /* Optional: rounded corners */
+  margin-top: 100px;
+  margin-left:-40px;
+  width:px;
+  background-color: transparent;
+  font-size: large;
+}
 
-  .header-logoo{
-    width: 44%; /* Adjust width */
-    height:auto; /* Maintain aspect ratio */
-    object-fit:inherit; /* Ensure the image fits within the set dimensions */
-    border-radius: 0; /* Optional: rounded corners for the image */
-    margin-left: px; /* Space between title and image */
-    margin-top:50px;
-    max-width: 100%;
-  }
+.header-title {
+  margin-top:px;
+  font-size: 1.5em; /* Adjust font size as needed */
+  margin: 0;
+  width:10%;
+  padding-right: 30px; /* Space between text and image */
+  margin-left:150px;
+  margin-right:10px;
+}
+
+
+.header-logoi{
+  width: 44%; /* Adjust width */
+  height:auto; /* Maintain aspect ratio */
+  object-fit:inherit; /* Ensure the image fits within the set dimensions */
+  border-radius: 0; /* Optional: rounded corners for the image */
+  margin-left:-900px; /* Space between title and image */
+  margin-top:50px;
+  max-width: 100%;
+}
 .header-p{
-    margin-top: 0px;
-    font-size: 1.2em; /* Adjust font size as needed */
-    margin: 0;
-    padding-right: 30px; /* Space between text and image */
-    width:180%;
-    margin-left:150px;
+  margin-top: 0px;
+  font-size: 1.2em; /* Adjust font size as needed */
+  margin: 0;
+  padding-right: 30px; /* Space between text and image */
+  width:180%;
+  margin-left:150px;
 }
 /* ButtonGroup.css */
 
 .button-group {
-    display: flex; /* Use flexbox to align buttons horizontally */
-    gap: 10px;
-    font-size:19px; /* Adjust spacing between buttons */
-  }
+  display: flex; /* Use flexbox to align buttons horizontally */
+  gap: 10px;
+  font-size:19px;
+  margin-left:-100px; /* Adjust spacing between buttons */
+}
+
+.button-primary,
+.button-secondary {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #007bff; /* Primary button color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  margin-top:20px;
+  width:180px;
+
   
-  .button-primary,
-  .button-secondary {
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #007bff; /* Primary button color */
-    color: white; /* Text color */
-    border: none; /* Remove default border */
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    margin-top:20px;
-    width:180px;
-  }
-  
-  .button-secondary1 {
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #69727d; /* Primary button color */
-    color: white; /* Text color */
-    border: none; /* Remove default border */
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    margin-top:20px;
-    width:180px;
-    transition: all .3s;
-  }
-  .button-secondary1 :hover{
-    padding:20px;
-  }
+}
+
+.button-secondary1 {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #0b1119; /* Primary button color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  margin-top:20px;
+  width:180px;
+  transition: all .3s;
+  margin-left:100px;
+}
+.button-secondary1 :hover{
+  padding:20px;
+}
 
 h6{
-    margin-top:20px;
+  margin-top:20px;
 }  
 b{
-  color:blue;
+color:blue;
+}
+
+
+.logo-2{
+width: 35%; /* Adjust width */
+height:70%; /* Maintain aspect ratio */
+object-fit:inherit; /* Ensure the image fits within the set dimensions */
+border-radius: 4px; /* Optional: rounded corners for the image */
+margin-left: 150px; /* Space between title and image */
+margin-top:10px;
+}
+.header-title-Deploy{
+  margin-left:100px;
+  font-size:2em;
+  margin-top:50px;
+}
+.header-title-Stream{
+  margin-left:150px;
+  font-size:2em;
+  margin-top:50px;
+}
+.heading-p-Deploy{
+margin-top: 0px;
+font-size: 1.2em; /* Adjust font size as needed */
+margin: 0;
+padding-right: 100px; /* Space between text and image */
+width:180%;
+margin-left:100px;
+}
+.header-container-Deploy {
+display: flex;
+align-items:center; /* Align items vertically */
+justify-content:space-between; /* Ensure the image is to the right */
+padding: 10px;
+background-color: #e9edf2; /* Optional: background color */ /* Optional: rounded corners */
+margin-top: 50px;
+margin-left:px;
+width:px;
+height:550px;
+}
+
+.header-logo-Stream {
+width: 35%; /* Adjust width */
+height:20%; /* Maintain aspect ratio */
+object-fit:inherit; /* Ensure the image fits within the set dimensions */
+border-radius: 4px; /* Optional: rounded corners for the image */
+margin-left: 950px; /* Space between title and image */
+margin-top:-300px;
+}
+.header-title3{
+margin-top:100px;
+margin-left:150px;
+color:rgb(21, 20, 20);
+font-weight: bold;
+font-size: 50px;
+font-family:serif;
+height:50%;
+font-size:50px;
+}
+.header-p3{
+margin-top: 0px;
+font-size: 1.2em; /* Adjust font size as needed */
+margin: 0;
+padding-right: 30px; /* Space between text and image */
+width:180%;
+margin-left:150px;
+}
+.header-container3 {
+display: flex;
+align-items: center; /* Align items vertically */
+justify-content: space-between; /* Ensure the image is to the right */
+padding: 10px;
+background-color: #f0f0f0; /* Optional: background color */
+border-radius: 8px; /* Optional: rounded corners */
+margin-top: 150px;
+margin-left:px;
+width: px;
+background-color: transparent;
+}
+
+.header-logo-Insight{
+width: 35%; /* Adjust width */
+height:70%; /* Maintain aspect ratio */
+object-fit:inherit; /* Ensure the image fits within the set dimensions */
+border-radius: 4px; /* Optional: rounded corners for the image */
+margin-left: 100px; /* Space between title and image */
+margin-top:10px;
+}
+.header-p4{
+margin-top: 0px;
+font-size: 1.2em; /* Adjust font size as needed */
+margin: 0;
+padding-right: 30px; /* Space between text and image */
+width:180%;
+margin-left:150px;
+}
+.header-container-Insights {
+  display: flex;
+  align-items:center; /* Align items vertically */
+  justify-content:space-between; /* Ensure the image is to the right */
+  padding: 10px;
+  background-color: #e9edf2; /* Optional: background color */ /* Optional: rounded corners */
+  margin-top: 50px;
+  margin-left:px;
+  width:px;
+  height:450px;
+  }
+l{
+background-color:#ffc837;
+}
+.header-title2{
+margin-left:150px;
+}
+
+
+.container-Bottom {
+  display: flex;
+  align-items: center;
+  border: 2px solid #333;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 20px auto;
+  height:200px;
+  background-color:#21357C;
+  color:white;
+  font:20px;
+  font-weight: 200;
+  margin-top:100px;
+}
+
+.text-content-Bottom {
+  flex: 1; /* Takes up available space */
+  margin-right: 20px; /* Space between content and button */
+  font-size:4em;
+  font-weight:bold;
+}
+
+.heading-Bottom {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+  margin-left:50px;
+  font-weight:700
+}
+
+.content-Bottom {
+  font-size: 20px;
+  margin: 0;
+  margin-left:50px;
+}
+
+.action-button-Bottom {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right:60px;
+  width:200px;
+  height:60px;
+}
+
+.action-button-Bottom:hover {
+  background-color: #0056b3;
 }

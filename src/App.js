@@ -10,6 +10,8 @@ import APIMonitoring from './components/APIMonitoring/APIMonitoring.jsx';
 import Manager from './components/Manager/Manager.jsx';
 import DevelopmentTeams from './components/DevelopmentTeams/DevelopmentTeams.jsx';
 import Resources from './components/Resources/Resources.jsx';
+import Privacy from './components/Privacy-Policy/Privacy.jsx';
+import Terms from './components/Terms/Terms.jsx';
 //import TrustedComp from './components/TrustedComp/TrustedComp.jsx';
 function App() {
   return (
@@ -25,12 +27,10 @@ function App() {
     <Route path="/job-monitoring"element={<JobMonitoring/>}/>
     <Route path="/api-monitoring"element={<APIMonitoring/>}/>
     <Route path="/manager"element={<Manager/>}/>
-    <Route path="/development-teamss"element={<DevelopmentTeams/>}/>
+    <Route path="/development-teams"element={<DevelopmentTeams/>}/>
     <Route path="/resources"element={<Resources/>}/>
-
-
-
-
+    <Route path="/privacy-policy" element={<Privacy/>}/>
+    <Route path="/Terms" element={<Terms/>}/>
 
 
   </Routes>

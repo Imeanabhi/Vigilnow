@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button';
 
 function Header() {
   return (
-    <Navbar expand="lg" bg="light" variant="light" className='navbari'>
+    <Navbar expand="lg" bg="white" variant="light" className='navbari'>
       <Container className='containernav'>
       <img src={logo} alt="VigilNow Logo" className="logo" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

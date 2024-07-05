@@ -1,0 +1,187 @@
+.header-container-Teamsi {
+    width: 100%; /* Adjust width as needed */
+    padding: 20px;
+    margin: 20px;
+    display: center;
+    font-display: center;
+    background-color: white;
+    margin-top:-10px;
+
+}
+
+.header-title-Teams{
+    margin-top: 0;
+    font-display: Center;
+    display:center;
+    margin-left:400px;
+    margin-top:50px;
+    font-size:42px;
+    display:bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 strong{
+    color:blue;
+    font-style: inherit;
+  
+  }
+  .header-p-team{
+    margin-top: 20px;
+    margin-left:250px;
+    font-size: 1.2em;
+  }
+
+
+  .button-groupp{
+    display: flex; /* Use flexbox to align buttons horizontally */
+    gap: 10px;
+    font-size:1em;
+    margin-left:70px;
+     /* Adjust spacing between buttons */
+  }
+  .Connect{
+    size:4em;
+    font-size:0.9em;
+    font-weight: 1000;
+    margin-left: 200px;
+    margin-right:-60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .button-primary,
+  .button-secondary {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    margin-top:20px;
+    width:180px;
+    margin-left: 100px;
+  }
+  
+  .button-secondary0 {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #010912; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    margin-top:20px;
+    width:180px;
+    transition: all .3s;
+  }
+  .button-secondary1 :hover{
+    padding:20px;
+  }
+  
+  h6{
+    margin-top:20px;
+  }  
+  b{
+  color:blue;
+  }
+
+
+  .Linkt{
+    width:60px;
+    height:60px;
+    margin-left:60px;
+    margin-top:20px;
+  }
+  .Linkr{
+    width:85px;
+    height:110px;
+    margin-left:-10px;
+    margin-top:-5px;
+  }
+  .SDK{
+    margin-left:150px;
+    margin-bottom:40px;
+    margin-top:-70px;
+  }
+  .New-Container{
+    margin: top -20px;
+    margin-left:110px;
+  }
+
+  .Container-button{
+    margin-left:-50px;
+    background-color: white;
+    
+  }
+  .row-sm-3{
+    display:flex;
+    gap:30px;
+    background-color: white;
+    
+  }
+  h4{
+    font-size:1.2em;
+  }
+
+/* Styling for the containers */
+.node, .django, .net {
+  margin-left: 200px;
+  border: 2px inset #010912;
+  background-color: rgb(215, 240, 240);
+  height: 50px;
+  width: 250px;
+  padding: 10px 20px; /* Corrected padding */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  border-radius:5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor:grabbing
+
+}
+
+
+.ball {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #ff4081; /* Pink color */
+  border-radius: 50%;
+  pointer-events: none; /* Prevent interaction with the ball */
+  transform: scale(0); /* Initial scale to 0 for transition effect */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.ball.active {
+  transform: scale(1); /* Scale up when active */
+  opacity: 0; /* Fade out */
+}
+
+
+
+.django{
+  margin-left:-2px;
+}
+.net{
+  margin-left:-2px;
+}
+
+/* Styling for text within the containers */
+.nodei, .neti, .djangoi {
+  margin-left: 70px;
+  margin-top: -2px;
+}
+
+/* Basic styles for anchor tags */
+a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set custom color */
+  transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+a:hover {
+  color: white; /* Change color on hover */
+}
+
+/* Hover effect on the parent <a> tag */
+a:hover .node,
+a:hover .net,
+a:hover .django {
+  background-color: yellow; /* Change to yellow on hover */
+}

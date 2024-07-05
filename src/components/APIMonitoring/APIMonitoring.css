@@ -1,11 +1,11 @@
-.header-title3{
+.header-title-Api{
     margin-top:60px;
     margin-left:150px;
     color:rgb(21, 20, 20);
     font-weight: bold;
     font-family:serif;
     height:60%;
-    font-size:3em;
+    font-size:2.4em;
 }
 h2 strong{
     color:blue;
@@ -42,14 +42,16 @@ h2 strong{
   }
   
 
-  .header-logoo{
+  .header-logo-Api{
     width: 44%; /* Adjust width */
     height:auto; /* Maintain aspect ratio */
     object-fit:inherit; /* Ensure the image fits within the set dimensions */
     border-radius: 0; /* Optional: rounded corners for the image */
-    margin-left: px; /* Space between title and image */
+    margin-left:20px; /* Space between title and image */
     margin-top:50px;
     max-width: 100%;
+    margin-right:80px;
+    box-sizing: border-box;
   }
 .header-p{
     margin-top: 0px;
@@ -64,7 +66,7 @@ h2 strong{
 .button-group {
     display: flex; /* Use flexbox to align buttons horizontally */
     gap: 10px;
-    font-size:19px; /* Adjust spacing between buttons */
+    font-size:18px; /* Adjust spacing between buttons */
   }
   
   .button-primary,
@@ -74,21 +76,22 @@ h2 strong{
     color: white; /* Text color */
     border: none; /* Remove default border */
     border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
+    cursor:pointer; /* Cursor style */
     margin-top:20px;
     width:180px;
   }
   
   .button-secondary1 {
     padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #69727d; /* Primary button color */
+    background-color: #01070f; /* Primary button color */
     color: white; /* Text color */
     border: none; /* Remove default border */
     border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    margin-top:20px;
-    width:180px;
+    cursor:pointer; /* Cursor style */
+    margin-top:40px;
+    width:200px;
     transition: all .3s;
+    height:50px;
   }
   .button-secondary1 :hover{
     padding:20px;
@@ -99,4 +102,171 @@ h6{
 }  
 b{
   color:blue;
+}
+
+.header-title-Error{
+  margin-right:20px;
+  margin-left: 100px;
+}
+.header-logo-Error{
+  width: 35%; /* Adjust width */
+  height:80%; /* Maintain aspect ratio */
+  object-fit:inherit; /* Ensure the image fits within the set dimensions */
+  border-radius: 4px; /* Optional: rounded corners for the image */
+  margin-left: 200px; /* Space between title and image */
+  margin-top:10px;
+}
+.header-p-Error{
+  margin-top: 0px;
+  font-size: 1.2em; /* Adjust font size as needed */
+  margin: 0;
+  padding-right: 30px; /* Space between text and image */
+  width:180%;
+  margin-left:100px;
+}
+.header-container-Error {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Ensure the image is to the right */
+  padding: 10px;
+  background-color: #e9edf2;  /* Optional: background color */
+  border-radius: 8px; /* Optional: rounded corners */
+  margin-top: 150px;
+  margin-left:px;
+  width:px;
+  height:500px;
+  
+}
+.header-logo-Insights{
+  width: 35%; /* Adjust width */
+  height:85%; /* Maintain aspect ratio */
+  object-fit:inherit; /* Ensure the image fits within the set dimensions */
+  border-radius: 4px; /* Optional: rounded corners for the image */
+  margin-left: 850px; /* Space between title and image */
+  margin-top:-300px;
+}
+.header-title-Insights{
+  margin-top:100px;
+  margin-left:150px;
+  color:rgb(21, 20, 20);
+  font-weight: bold;
+  font-size: 50px;
+  font-family:serif;
+  height:50%;
+  font-size:2.2em
+}
+.header-p-Insights{
+  margin-top: 0px;
+  font-size: 1em; /* Adjust font size as needed */
+  margin: 0;
+  padding-right: 30px; /* Space between text and image */
+  width:180%;
+  margin-left:150px;
+}
+.header-container-Insights {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Ensure the image is to the right */
+  padding: 10px;
+  background-color: #f0f0f0; /* Optional: background color */
+  border-radius: 8px; /* Optional: rounded corners */
+  margin-top: 100px;
+  margin-left:px;
+  width: px;
+  background-color: transparent;
+}
+
+.header-logo-Flow {
+  width: 30%; /* Adjust width */
+  height:80%; /* Maintain aspect ratio */
+  object-fit:inherit; /* Ensure the image fits within the set dimensions */
+  border-radius: 4px; /* Optional: rounded corners for the image */
+  margin-left: 200px; /* Space between title and image */
+  margin-top:10px;
+}
+.header-p-Flow{
+  margin-top: 0px;
+  font-size: 1.2em; /* Adjust font size as needed */
+  margin: 0;
+  padding-right:150px; /* Space between text and image */
+  width:180%;
+  margin-left:150px;
+}
+.header-title-Flow{
+  margin-right:px;
+  margin-left: 150px;
+}
+.header-container-Flow {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Ensure the image is to the right */
+  padding: 10px;
+  background-color: #f0f0f0; /* Optional: background color */
+  border-radius: 8px; /* Optional: rounded corners */
+  margin-top: 100px;
+  margin-left:px;
+  width:px;
+  height:400px;
+  margin-right:px;
+}
+l{
+  background-color:#ffc837;
+}
+.header-title2{
+  margin-left:150px;
+}
+
+.container-Bottom {
+  display: flex;
+  align-items: center;
+  border: 2px solid #333;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 20px auto;
+  height:200px;
+  background-color:#21357C;
+  color:white;
+  font:20px;
+  font-weight: 200;
+  margin-top:100px;
+}
+
+.text-content-Bottom {
+  flex: 1; /* Takes up available space */
+  margin-right: 20px; /* Space between content and button */
+  font-size:4em;
+  font-weight:bold;
+}
+
+.heading-Bottom {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+  margin-left:50px;
+  font-weight:700
+}
+
+.content-Bottom {
+  font-size: 20px;
+  margin: 0;
+  margin-left:50px;
+}
+
+.action-button-Bottom {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right:60px;
+  width:200px;
+  height:60px;
+}
+
+.action-button-Bottom:hover {
+  background-color: #0056b3;
 }

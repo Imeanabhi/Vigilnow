@@ -6,11 +6,12 @@ import Container1 from '../Container/Container1';
 import Container2 from '../Container/Container2';
 import Container3 from '../Container/Container3';
 import Container4 from '../Container/Container4';
-import Exec from '../../Images/Exception.webp';
-import Moni from '../../Images/Monitoring.webp';
-import Sum from '../../Images/Summary.webp';
-import Res from '../../Images/Response.webp';
-import vigil from '../../Images/vigil.webp'
+import Home1 from '../../Images/Home1.webp';
+import Job from '../../Images/Jobi.webp';
+import Improve from '../../Images/Improve Home.webp';
+import Api from '../../Images/ApiHome.webp';
+import vigil from '../../Images/vigil.webp';
+import Footer from '../Footer/Footer.jsx';
 
 
 const Homepage = () => {
@@ -45,11 +46,11 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="header-container2">
-      <img src={Exec} alt="Company Logo" className="header-logo2" />
+      <div className="header-container-Exception">
+      <img src={Home1} alt="Company Logo" className="header-logo-Exception" />
       <div>
-     <h2 className="header-title2">Understand what exactly <br/><l>went wrong</l>in your code</h2><br/>
-     <p className='header-p2'>Discover & manage errors with Vigil’s intelligent error<br/> monitoring;
+     <h2 className="header-title-Exception">Understand what exactly <br/><l>went wrong</l>in your code</h2><br/>
+     <p className='header-p-Exception'>Discover & manage errors with Vigil’s intelligent error<br/> monitoring;
        it captures repetitive exceptions based<br/> on pre-defined criteria and groups them,
         making them<br/> easier to identify. When unexpected exceptions occur,<br/>
        devs can group them for efficient resolution.
@@ -74,17 +75,17 @@ const Homepage = () => {
     </p>
     </div>
     </div>
-    <img src={Moni} alt="Company Logo" className="header-logo3" />
+    <img src={Job} alt="Company Logo" className="header-logo3" />
     
     
     
-    <div className="header-container4 ">
-    <img src={Sum} alt="Company Logo" className="header-logo4" />
+    <div className="header-container-Uptime ">
+    <img src={Improve} alt="Company Logo" className="header-logo-Uptime" />
       <div>
      <h2 className="header-title4">Improve <l>Uptime</l> & Performance<br/> Benchmarking</h2><br/>
-     <p className='header-p4'>Utilize health checks to benchmark the performance of 
-      applications & analyze<br/> uptime. Data-driven approach facilitates the comparison 
-      of current performance<br/> with historical metrics, supporting informed decision-making
+     <p className='header-p-Uptime'>Utilize health checks to benchmark the performance of 
+      applications<br/> & analyze uptime. Data-driven approach facilitates the comparison<br/>
+      of current performance  with historical metrics, supporting informed <br/>decision-making
        for improvements.
 
 
@@ -97,7 +98,7 @@ const Homepage = () => {
 
     <div className="header-container5">
       <div>
-     <h2 className="header-title2">Get the complete picture into <l>API stability</l></h2><br/>
+     <h2 className="header-title5">Get the complete picture into <l>API <br/>stability</l></h2><br/>
      <p className='header-p5'>Address issues that may cause slow response times,
        crashes, or other<br/>disruptions. Analyze the performance of your APIs & third-party
         integrations<br/> with Vigil’s robust API monitoring.
@@ -107,7 +108,7 @@ const Homepage = () => {
     </p>
     </div>
     </div>
-    <img src={Res} alt="Company Logo" className="header-logo5" />
+    <img src={Api} alt="Company Logo" className="header-logo5" />
     
     <div className="content-side-container">
     <div className="header-container6">
@@ -141,6 +142,9 @@ const Homepage = () => {
     </div>
     </div>
 
+
+
+<Footer/>
     </div>
   )
 }

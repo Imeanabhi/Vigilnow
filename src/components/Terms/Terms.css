@@ -1,0 +1,31 @@
+.Terms-h1{
+    display:center;
+    font-weight: 700;
+    font-size:60px;
+    margin-left:500px;
+    margin-top:80px;
+}
+.Terms-p{
+    margin-top:60px;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+m{
+    font-weight:bold;
+}
+
+
+
+.vigilq{
+    color: blue; /* Default color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+    color: yellow; /* Color change on hover */
+}
+.blu{
+    width:1250px;
+    font-size:17px;
+}

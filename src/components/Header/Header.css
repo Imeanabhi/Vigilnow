@@ -1,7 +1,8 @@
 .logo {
-    height: 60px; /* Adjust the height as per your requirement */
-    margin-right: 200px;
-    margin-left:0px /* Optional: Add margin for spacing */
+    height: 70px; /* Adjust the height as per your requirement */
+    margin-right: 220px;
+    margin-left:-20px;
+    margin-top:-10px;/* Optional: Add margin for spacing */
   }
   
   .navbar-nav .nav-link {
@@ -43,6 +44,9 @@
     height:50px;
 }
 .containernav{
-  background-color: transparent;
+  background-color:white;
 }
 
+.navbari{
+  background-color: rgb(254, 253, 253);
+}
