@@ -1,0 +1,112 @@
+.Boosting{
+    width:1000px;
+    margin-left:450px;
+    margin-top:170px;
+    font-size:3em;
+}
+.header-logo-Boost{
+    margin-left:400px;
+    margin-top:50px;
+    width:40%;
+    height:30%;
+}
+.Boosting-p{
+    width:50%;
+    margin-left:400px;
+    font-size:1em;
+    font-weight:400;
+}
+.Boostm{
+    font-size:1.2em;
+}
+.Share{
+    font-weight:bold;
+    font-size:1em;
+    margin-left:400px;
+    margin-bottom:-50px;
+}
+.twitter{
+    margin-left:400px;
+    margin-top:50px;
+    font-size:40px;
+    color:aqua;
+    margin-top:10px;
+
+}
+.twitter-p{
+    color:black;
+    font-size:0.3em;
+    font-weight:400;
+    margin-left:380px;
+    margin-top:-3px;
+}
+
+.Facebook{
+    margin-left:400px;
+    margin-top:50px;
+    font-size:40px;
+    color:aqua;
+    margin-top:10px;
+
+}
+.Facebook-p{
+    color:black;
+    font-size:0.3em;
+    font-weight:400;
+    margin-left:380px;
+    margin-top:-3px;
+}
+
+
+.Star{
+    margin-left:400px;
+    margin-top:50px;
+    font-size:40px;
+    color:aqua;
+    margin-top:10px;
+
+}
+.like-this{
+    color:black;
+    font-size:0.3em;
+    font-weight:400;
+    margin-left:380px;
+    margin-top:-3px;
+}
+
+.related{
+    margin-top:20px;
+    margin-left:400px;
+    font-size:1em;
+    font-weight:bold;
+    margin-bottom:80px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    gap:px; /* This creates space between the content blocks */
+    background-color: white;
+    margin-left:350px;
+    margin-top:-80px;
+    width:60%;
+  }
+  
+  .content-block {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border:none;
+    background-color: white;
+    font-size:1em;
+    width:10%;
+  }
+  
+  .url-blog{
+color:blue;
+  }
+  .url-blog:hover{
+    color:rgba(16, 1, 1, 0.893);
+
+  }

@@ -1,0 +1,56 @@
+.containerEx {
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 10px;
+    width:800px;
+    margin-left:350px;
+    border-radius: 8px;
+
+  }
+  
+  .headerEx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .toggle-checkboxEx {
+    display:none;
+    font-size: small;
+ 
+  }
+  
+  .toggle-buttonEx {
+    
+    font-weight: bolder;
+  }
+  
+  .contentEx {
+    display: none;
+    padding: 10px;
+    font-weight: 100px;
+   
+  }
+  
+  /* Toggle content visibility when checkbox is checked */
+
+  
+  .toggle-checkboxEx:checked ~ .contentEx {
+    display: block;
+  }
+  
+  .bull{
+    font-size:20px;
+    margin-left:-5px;
+    margin-top:-5px;
+  }
+
+  .headerEx{
+    margin: 0; /* Reset margin for the heading */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .headerEx:hover {
+    color: blue; /* Change color to blue on hover */
+  }

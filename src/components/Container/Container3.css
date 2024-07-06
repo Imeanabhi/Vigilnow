@@ -14,7 +14,7 @@
   }
   
   .container3:hover {
-    transform: translateY(-5px); /* Example hover effect */
+    transform: translateY(-15px); /* Example hover effect */
   }
   
   .container3 h2 {

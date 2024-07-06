@@ -185,3 +185,86 @@ a:hover .net,
 a:hover .django {
   background-color: yellow; /* Change to yellow on hover */
 }
+ .boom{
+  margin-top:100px;
+  margin-left:150px;
+ }
+
+ .logoBlog{
+  width: 35%; /* Adjust width */
+  height:70%; /* Maintain aspect ratio */
+  object-fit:inherit; /* Ensure the image fits within the set dimensions */
+  border-radius: 4px; /* Optional: rounded corners for the image */
+  margin-left: 150px; /* Space between title and image */
+  margin-top:10px;
+  }
+
+
+  .header-container-Blog {
+  display: flex;
+  align-items:center; /* Align items vertically */
+  justify-content:space-between; /* Ensure the image is to the right */
+  padding: 10px;
+  background-color: white; /* Optional: background color */ /* Optional: rounded corners */
+  margin-top:-80px;
+  margin-left:px;
+  width:px;
+  height:550px;
+  }
+
+  .containerBlog {
+    margin-right:-50px;
+    width:740px;
+    font-size:1.1em;
+  gap:10px;
+   justify-content: space-between;
+    display: center;/* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; 
+  }
+  
+  .url {
+    padding: 10px;
+    color:black;
+    margin-bottom:30px;
+    margin-top:20px;
+    
+  }
+  .url:hover{
+    color:blue;
+  }
+  a .urli {
+    padding: 10px;
+    color:black;
+    margin-bottom:30px;
+    margin-top:10px;
+    font-size:1em;
+    margin-left:5px;
+    
+  }
+  .urli:hover{
+    color:blue;
+  }
+
+  .divider {
+    border-top: 1px solid #000; /* Horizontal line */
+    margin: 0 10px; 
+    width:600px;/* Adjust margin as needed */
+  }
+  .bulbul{
+    font-size:0.8em;
+    margin-top: 0%;;
+  }
+
+  .boom1{
+    margin-top:-50px;
+    margin-left:150px;
+    font-size:1.3em;
+  }
+  .Readmore:hover{ 
+  color:blue;
+  }
+  .Readmore{
+    margin-left:150px;
+    font-weight:bolder;
+  }

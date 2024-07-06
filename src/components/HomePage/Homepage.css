@@ -372,3 +372,35 @@ blue{
 
   border-radius: 8px;
 }
+
+
+.rows{
+  margin-left:120px;
+  margin-top:150px;
+  gap:50px;
+height:550px;
+  display:flex;
+}
+
+.bye{
+  font-weight: bolder;
+  margin-top:70px;
+  margin-bottom:100px;
+  margin-left:420px;
+  font-size:50px;
+}
+
+n{
+  color:blue;
+}
+
+.jump{
+  color:#007bff
+}
+
+
+
+
+
+
+

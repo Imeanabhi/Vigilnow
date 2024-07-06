@@ -12,7 +12,10 @@ import Improve from '../../Images/Improve Home.webp';
 import Api from '../../Images/ApiHome.webp';
 import vigil from '../../Images/vigil.webp';
 import Footer from '../Footer/Footer.jsx';
-
+import ContainerHome1 from '../ContainerHome/ContainerHome1.jsx';
+import ContainerHome2 from '../ContainerHome/ContainerHome2.jsx';
+import ContainerHome3 from '../ContainerHome/ContainerHome3.jsx';
+import ExpandCont from '../ExpandCont/ExpandCont';
 
 const Homepage = () => {
   return (
@@ -141,6 +144,62 @@ const Homepage = () => {
       </div>
     </div>
     </div>
+
+
+
+
+    <div className="container-Home">
+        <div className='rows'>
+<ContainerHome1/>
+<ContainerHome2/>
+<ContainerHome3/>
+        </div>
+      </div>
+      <br/><br/><br/><br/>
+
+<h1 className="bye">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Got <n>questions?</n><br/>We've gathered some <n>answers</n>
+</h1>
+
+
+
+
+<div className="black">
+      <ExpandCont
+        title="What does Vigil monitor?"
+        content="Vigil monitors every aspect of your application’s performance, from errors and background jobs to uptime and APIs. With Vigil, you get a comprehensive view of your application’s health in real-time, allowing you to address issues before they impact your users."
+      />
+      <ExpandCont
+        title="How does Vigil help in detecting and resolving errors?"
+        content="Vigil provides real-time error monitoring, instantly alerting you to any issues within your application. With detailed error reports and stack traces, you can quickly identify the root cause of errors and take action to resolve them. Our intuitive interface makes it easy to prioritize and track the resolution process, ensuring a seamless experience for both developers and operations teams."
+      />
+        <ExpandCont
+        title="Can Vigil handle complex background jobs and tasks?"
+        content="Absolutely! Vigil is designed to handle even the most complex background jobs and tasks. Whether you’re processing large volumes of data or running asynchronous processes, Vigil’s monitoring capabilities ensure that everything runs smoothly. You’ll have full visibility into job queues, processing times, and job statuses, allowing you to optimize performance and resource utilization."/>
+          <ExpandCont
+        title="How does Vigil ensure high uptime for my application??"
+        content="Vigil employs robust uptime monitoring features to ensure that your application remains available and responsive at all times. With continuous uptime checks and proactive alerting, you’ll be notified immediately of any downtime or performance degradation. Our customizable dashboards provide real-time insights into your application’s availability, empowering you to minimize downtime and maximize reliability."/>
+   
+   <ExpandCont
+        title="Can Vigil help in optimizing API performance?"
+        content="Absolutely! Vigil includes comprehensive API monitoring capabilities, allowing you to track endpoint performance, latency, and error rates. With detailed metrics and analytics, you can identify bottlenecks, optimize response times, and improve overall API reliability. Whether you’re building or consuming APIs, Vigil provides the insights you need to deliver a seamless user experience."/>
+
+<div className="container-Bottom">
+            <div className="text-content-Bottom">
+                
+                <h1 className="heading-Bottom">Find out how <n className='jump'>Vigil</n> can help monitor your applications </h1>
+            </div>
+            <button className="action-button-Bottom">Talk to an expert</button>
+        </div>
+        <br/><br/><br/><br/>
+
+      
+    </div>
+    
+
+
+
 
 
 

@@ -3,6 +3,7 @@ import './Resources.css';
 import Linki from '../../Images/Linkedin.png';
 import Email from '../../Images/Email.jpeg';
 import Footer from '../Footer/Footer.jsx';
+import Blog from '../../Images/blogs.webp';
 
 const Resources = () => {
   return (
@@ -52,6 +53,38 @@ const Resources = () => {
       
     </div>
   </div>
+
+  <h3 className="boom">Blogs</h3><br/><br/>
+
+  <div className="header-container-Blog">
+      <img src={Blog} alt="Company Logo" className="logoBlog" />
+     <div className="containerBlog">
+      <a href="http://localhost:3000/boosting-application-reliability" className="url">Boosting Application Reliability with Vigil’s Uptime Monitoring Solution
+</a>
+<p className="bulbul">24th April 2024 &nbsp;&nbsp; &nbsp;&nbsp;  </p>
+      <div className="divider"></div>
+      <a href="http://localhost:3000/maximizing-full-stack-monitoring-efficiency" className="url">Maximizing Full Stack Monitoring Efficiency with Vigil’s API Monitoring Feature</a>
+      <p className="bulbul">24th April 2024</p>
+      <div className="divider"></div>
+      <a href="http://localhost:3000/streamlining-full-stack-application-error-monitoring" className="urli">Streamlining Full Stack Application Error Monitoring with Vigil: A Game-Changer for Development Teams</a>
+      <p className="bulbul">24th April 2024</p>
+    </div>
+  
+    </div>
+    <h3 className="boom1">Enhancing Operational Efficiency with Vigil’s Job Monitoring<br/> Feature</h3>
+  <a href="http://localhost:3000/enhancing-operational-efficiency" className="Readmore">Read more</a>
+
+
+
+  <div className="container-Bottom">
+            <div className="text-content-Bottom">
+                
+                <h1 className="heading-Bottom">Find out how Vigil can help monitor your applications</h1>
+            </div>
+            <button  className="action-button-Bottom">Request Demo</button>
+        </div>
+
+
 
 
 <br/><br/><br/>

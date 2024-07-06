@@ -1,37 +1,38 @@
 /* ContainerStyles.css */
 
-.container1 {
+.container-Home1 {
     border: 1px solid #ccc;
     padding: 20px;
-    width: 300px; /* Adjust width as needed */
+    height:600px;
+    width: 400px; /* Adjust width as needed */
     background-color: #f0f0f0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    background-color: #21357c;
+    background-color: #e9edf2
     
-  
-   
   }
   
-  .container1:hover {
-    transform: translateY(-15px); /* Example hover effect */
+  .container-Home1:hover {
+    transform: translateY(-30px); /* Example hover effect */
   }
   
-  .container1 h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color:white
+  .container-Home1 h2 {
+    font-size: 1.2rem;
+    margin-top:10px;
+    margin-bottom: 25px;
+    margin-left:17px;
+    color:Black;
   }
   
-  .container1 p {
-    font-size: 1.3em;
+  .container-Home1 p {
+    font-size: 1.1em;
     color: #333;
     margin-bottom: 15px;
-    color:white
+    color:Black
   }
   
-  .container1 button {
+  .container-Home1 button {
     background-color: #007bff;
     color: white;
     border: none;
@@ -44,10 +45,17 @@
     margin-left:40px;
   }
   
-  .container1 button:hover {
+  .container-Home1 button:hover {
     background-color: #0056b3;
   }
-  .c1 {
+  .c2 {
     margin-left: 20px;
   }
   
+
+  .track-logo{
+    height:250px;
+    width:400px;
+    margin-left:-7px;
+    margin-bottom:40px;
+  }
