@@ -224,7 +224,7 @@ b {
   }
   .header-p-Flow {
     margin-top: 0px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 0;
     padding-right: 150px;
     width: 1000%;
@@ -260,14 +260,14 @@ b {
     margin-left:70px;
     padding-right: 10px;
     width:100%;
-    font-size: 0.8em;
+    font-size: 1.2em;
     margin-top:-50px;
     max-width:250px;
   }
   .header-p-Insights {
       margin-left: 1px;
       padding-right: 10px;
-      font-size: 0.8em;
+      font-size: 1.1em;
       
       margin-top:-10px;
       
@@ -276,7 +276,7 @@ b {
     margin-left: 20px;
     padding-right: 10px;
     width:100%;
-    font-size: 0.9em;
+    font-size: 1em;
     margin-top:-10px;
     margin-bottom:-10px;
   }

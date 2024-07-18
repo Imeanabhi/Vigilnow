@@ -12,8 +12,8 @@ const APIMonitoring = () => {
          <div className="header-containerr">
       <div>
      <h2 className="header-title-Api">Simplify <strong>API </strong>Performance<br/> Monitoring</h2><br/>
-     <p className='header-p'>Keep an eye on API health, performance, and usage<br/>
-      effortlessly, ensuring smooth integration and dependable<br/>
+     <p className='header-p'>Keep an eye on API health, performance, and usage
+      effortlessly, ensuring smooth integration and dependable
        service delivery.
     <div className="button-group">
    <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=api_monitoring_hero_section" target="blank"><button className="button-secondary1"> Request a demo </button></a>   
@@ -29,7 +29,7 @@ const APIMonitoring = () => {
       <img src={Deploy} alt="Company Logo" className="header-logo-Error" />
       <div>
      <h2 className="header-title-Error">Easy API <l>Error Tracking</l></h2><br/>
-     <p className='header-p-Error'>Easily track API interactions with a unified dashboard that offers<br/>
+     <p className='header-p-Error'>Easily track API interactions with a unified dashboard that offers
       a clear view of API performance metrics and overall health
     <div className="button-group">
      <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=api_monitoring_feature_1&_gl=1*7cn5ry*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTgyNjkuMC4wLjA.&_ga=2.261372105.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for Free</button></a> 
@@ -43,9 +43,9 @@ const APIMonitoring = () => {
       <div>
      <h2 className="header-title-Insights">
      Gather <l>Detailed</l> Insights</h2><br/>
-     <p className='header-p-Insights'>Get a clear picture of how your APIs are performing<br/> with data on response times,
-      error rates, and usage<br/> patterns, making it easier to understand how your<br/> systems
-      interact and where improvements can be <br/>made.
+     <p className='header-p-Insights'>Get a clear picture of how your APIs are performing with data on response times,
+      error rates, and usage patterns, making it easier to understand how your systems
+      interact and where improvements can be made.
     <div className="button-group">
    <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=api_monitoring_feature_2&_gl=1*1ma16iy*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTgyNjkuMC4wLjA.&_ga=2.260198601.539706939.1720413142-871476253.1719329457" target="blank" ><button className="button-primary">Try for Free</button></a>
     </div>
@@ -59,7 +59,7 @@ const APIMonitoring = () => {
     <div className="header-container-Flow ">
     <img src={Insights} alt="Company Logo" className="header-logo-Flow" />
       <div>
-     <h2 className="header-title-Flow">Improve Operational <l>Flow</l></h2><br/>
+     <h2 className="header-title-Flow">Improve Operational <l>Flow</l></h2>
      <p className='header-p-Flow'>Address API issues proactively and adjust your systems for better
       interaction,which helps maintain a steady and responsive service
        environment

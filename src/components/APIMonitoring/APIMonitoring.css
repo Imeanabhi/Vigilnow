@@ -265,6 +265,7 @@ b {
       margin-left: 1px;
       padding-right: 10px;
       font-size: 0.8em;
+      max-width:100%;
       
       margin-top:-10px;
       
@@ -299,7 +300,7 @@ b {
       width: 80%;
       height:auto;
       margin-left: 30px;
-      margin-top: -1050px;
+      margin-top: -1150px;
   }
 
   .header-logo-Flow {
@@ -313,7 +314,7 @@ b {
     margin-left:10px;
     margin-right:px;
     font-size: 2em;
-    margin-top:10px;
+    margin-top:200px;
   }
 
   .header-title-Error {
@@ -339,7 +340,7 @@ b {
 .header-container-Insights,
   .header-container-Flow {
       margin-left: 1px;
-      height:600px;
+      height:750px;
       width:100%;
  margin-bottom:10px;
  border:#01070f;
@@ -349,7 +350,7 @@ border-radius: 1px;
   }
   .header-container-Error{
    
-    height:520px;
+    height:650px;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -666,19 +667,18 @@ border-radius: 1px;
   .header-p-Insights {
     margin-left: 60px;
     padding-right: 20px;
-    font-size: 1em;
-    max-width:130%;
-    width:130%;
+    font-size: 1.2em;
+    max-width:100%;
+    width:100%;
     margin-top: -10px;
   }
   .header-p-Flow {
-    margin-left: 20px;
     padding-right: 20px;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 10px;
     margin-left:-300px;
-    max-width:250%;
-    width:250%;
+    max-width:390%;
+    width:390%;
   }
   .header-p-Flow .button-primary {
     width: 55%;
@@ -692,13 +692,13 @@ border-radius: 1px;
     margin-left: 80px;
   }
   .header-logo-Insights{
-    width: 80%;
+    width: 60%;
     height: auto;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: -380px;
   }
   .header-logo-Flow {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin-top: -300px;
     margin-left: 100px;
@@ -743,7 +743,8 @@ border-radius: 1px;
   .header-container-Flow {
     margin-top: 0;
     margin-bottom: 30px;
-    height:600px;
+    height:700px;
+    margin-bottom:100px;
     width: 100%;
     margin-top:-45px;
   }
@@ -764,13 +765,13 @@ border-radius: 1px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 576px;
-    width:100%;
-    margin-left:1px;
-    height: 250px;
+    width:80%;
+    margin-left:50px;
+    height: 200px;
     border: 2px solid #646464; /* Add border */
-    border-radius: 1px;
+    border-radius: 15px;
     margin-top: -30px;
-    margin-bottom:0px;
+    margin-bottom:30px;
   }
   .text-content-Bottom {
     flex: 1;
@@ -812,9 +813,10 @@ border-radius: 1px;
 
 @media (min-width: 577px) and (max-width: 768px) {
   .header-title-Api {
-    margin-left: 200px;
+    margin-left: 200x;
     font-size: 2.8em;
-    margin-top: -200px;
+    margin-top:-300px;
+    width:150%;
   }
   .header-title-Flow {
     margin-left: 40px;
@@ -854,22 +856,22 @@ border-radius: 1px;
   .header-p-Insights {
     margin-left: 50px;
     padding-right: 25px;
-    font-size: 0.9em;
-    max-width:90%;
+    font-size: 1.2em;
+    max-width:100%;
     margin-top: 0px;
   }
   .header-p{
-    margin-left: 170px;
+    margin-left: 150px;
     padding-right: 25px;
-    font-size: 1.1em;
-    width:150%;
-    max-width:150%;
+    font-size: 1.3em;
+    width:120%;
+    max-width:120%;
     margin-top: -10px;
   }
   .header-p-Flow {
     margin-left:40px;
     padding-right: 25px;
-    font-size: 1em;
+    font-size: 1.2em;
     max-width:100%;
     margin-top: -10px;
   }
@@ -885,16 +887,16 @@ border-radius: 1px;
     margin-left: 30px;
   }
   .header-logo-Insights {
-    width: 48%;
+    width: 38%;
     height: auto;
-    margin-left: 400px;
-    margin-top: -550px;
+    margin-left: 350px;
+    margin-top: -370px;
   }
   .header-logo-Flow {
     width: 40%;
     height: auto;
     margin-top: -5px;
-    margin-left:20px;
+    margin-left:0px;
   }
   .header-title-Error,
   .header-title-Insights {
@@ -928,7 +930,7 @@ border-radius: 1px;
   .header-container-Insights,
   .header-container-Flow {
 margin-top:-2px;
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin-bottom: 40px;
 
@@ -957,7 +959,7 @@ margin-top:-2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 768px;
     width:90%;
-    height: 260px;
+    height: 300px;
     margin-top: 10px;
     margin-bottom:50px;
     border: 2px solid #646464; /* Add border */
@@ -970,13 +972,13 @@ margin-top:-2px;
     font-weight: bold;
   }
   .heading-Bottom {
-    font-size: 26px;
+    font-size: 35px;
     margin: 0 0 10px 0;
     margin-left: 80px;
     font-weight: 700;
   }
   .content-Bottom {
-    font-size: 19px;
+    font-size: 28px;
     margin-left: 250px;
     margin-top: -20px;
     margin-bottom: 10px;
@@ -1050,17 +1052,18 @@ margin-top:-2px;
   .header-p-Insights {
     margin-left: 60px;
     padding-right: 30px;
-    font-size: 1.1em;
-    max-width: 90%;
+    font-size: 1em;
+    max-width:90%;
     margin-top: 0px;
   }
   .header-p {
-    margin-left: 180px;
+    margin-left: 120px;
     padding-right: 30px;
     font-size: 1.2em;
-    width: 150%;
-    max-width: 150%;
-    margin-top: -10px;
+    width: 125%;
+    max-width: 125%;
+    margin-top: 40px;
+    margin-bottom:40px;
   }
   .header-p-Flow {
     margin-left: 30px;
@@ -1082,10 +1085,10 @@ margin-top:-2px;
     margin-left: 40px;
   }
   .header-logo-Insights {
-    width: 50%;
+    width: 35%;
     height: auto;
-    margin-left: 450px;
-    margin-top: -500px;
+    margin-left:450px;
+    margin-top: -400px;
   }
   .header-logo-Flow {
     width: 42%;
@@ -1123,7 +1126,7 @@ margin-top:-2px;
   .header-container-Insights,
   .header-container-Flow {
     margin-top: -2px;
-    height: 400px;
+    height: 550px;
     width: 100%;
     margin-bottom: 40px;
     margin-left: 1px;
@@ -1148,7 +1151,7 @@ margin-top:-2px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 992px;
-    width: 90%;
+    width: 100%;
     height: 280px;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -1162,13 +1165,13 @@ margin-top:-2px;
     font-weight: bold;
   }
   .heading-Bottom {
-    font-size: 28px;
+    font-size: 35px;
     margin: 0 0 10px 0;
     margin-left: 90px;
     font-weight: 700;
   }
   .content-Bottom {
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 260px;
     margin-top: -20px;
     margin-bottom: 10px;
@@ -1198,7 +1201,9 @@ margin-top:-2px;
 @media (min-width: 993px) and (max-width: 1440px) {
   .header-title-Api {
     margin-left: 20px;
-    font-size: 3.2em;
+    font-size: 5em;
+    width:200%;
+    max-width:200%;
     margin-top: -100px;
   }
   .header-title-Flow {
@@ -1207,9 +1212,9 @@ margin-top:-2px;
     margin-top: -5px;
   }
   .header-logo-Api {
-    width: 60%;
+    width: 58%;
     max-width: 1200px;
-    margin-left: 180px;
+    margin-left: 250px;
     margin-right: 250px;
     margin-top: -200px;
     border-width: 30px;
@@ -1250,7 +1255,7 @@ margin-top:-2px;
   .header-p {
     margin-left: 10px;
     padding-right: 30px;
-    font-size: 1.2em;
+    font-size: 2em;
     width: 160%;
     max-width: 160%;
     margin-top: -10px;
@@ -1258,9 +1263,9 @@ margin-top:-2px;
   .header-p-Flow {
     margin-left: 40px;
     padding-right: 30px;
-    font-size: 1.1em;
-    max-width: 70%;
-    width: 70%;
+    font-size: 1.4em;
+    max-width: 110%;
+    width: 110%;
     margin-top: -10px;
   }
   .header-p-Flow .button-primary {
@@ -1275,10 +1280,10 @@ margin-top:-2px;
     margin-left: 50px;
   }
   .header-logo-Insights {
-    width: 50%;
+    width: 40%;
     height: auto;
-    margin-left: 550px;
-    margin-top: -650px;
+    margin-left: 600px;
+    margin-top: -750px;
   }
   .header-logo-Flow {
     width: 38%;
@@ -1561,4 +1566,214 @@ margin-top:-2px;
   .action-button-Bottom:hover {
     background-color: #0056b3;
   }
+}
+@media (min-width:1441px) and (max-width:1920px)
+{
+  /* Default styles */
+
+/* Header API */
+.header-title-Api {
+  margin-top: 60px;
+  margin-left: 150px;
+  color: rgb(21, 20, 20);
+  font-weight: bold;
+  font-family: serif;
+  height: 60%;
+  width:100%;
+  font-size:3.4em;
+}
+
+.header-logo-Api {
+  width: 40%;
+  height: auto;
+  object-fit: inherit;
+  border-radius: 0;
+  margin-left: 10px;
+  margin-top: 30px;
+  max-width: 100%;
+  margin-right: 80px;
+  box-sizing: border-box;
+}
+
+.header-p {
+  margin-top: 0px;
+  font-size: 1.3em;
+  margin: 0;
+  padding-right: 30px;
+  width: 90%;
+  margin-left: 150px;
+}
+
+/* Header Error */
+.header-title-Error {
+  margin-right: 20px;
+  margin-left: 60px;
+  font-size:2.5em;
+}
+
+.header-logo-Error {
+  width: 35%;
+  height: 80%;
+  object-fit: inherit;
+  border-radius: 4px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.header-p-Error {
+  margin-top: 0px;
+  font-size: 1.3em;
+  margin: 0;
+  padding-right: 30px;
+  width: 100%;
+  margin-left: 60px;
+}
+
+.header-container-Error {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e9edf2;
+  border-radius: 8px;
+  margin-top: 150px;
+  margin-left: -40px;
+  width: 100%;
+  height: 500px;
+}
+
+/* Header Insights */
+.header-title-Insights {
+  margin-top: 1px;
+  margin-left: 150px;
+  color: rgb(21, 20, 20);
+  font-weight: bold;
+  font-size: 50px;
+  font-family: serif;
+  height: 50%;
+  width:100%;
+  font-size: 2.5em;
+}
+
+.header-logo-Insights {
+  width: 35%;
+  height: 85%;
+  object-fit: inherit;
+  border-radius: 4px;
+  margin-left: 770px;
+  margin-top: -500px;
+}
+
+.header-p-Insights {
+  margin-top: 0px;
+  font-size: 1.4em;
+  margin: 0;
+  padding-right: 30px;
+  width: 100%;
+  margin-left: 150px;
+}
+
+.header-container-Insights {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+background-color:white;
+  border-radius: 8px;
+  margin-top: 100px;
+  margin-left: -40px;
+  width: 100%;
+}
+
+/* Header Flow */
+.header-title-Flow {
+  margin-right: 20px;
+  margin-left: 150px;
+}
+
+.header-logo-Flow {
+  width: 30%;
+  height: 80%;
+  object-fit: inherit;
+  border-radius: 4px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.header-p-Flow {
+  margin-top: 0px;
+  font-size: 1.2em;
+  margin: 0;
+  padding-right: 150px;
+  width:95%;
+  margin-left: 150px;
+}
+
+.header-container-Flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e9edf2;
+  border-radius: 8px;
+  margin-top: 100px;
+  margin-left: -40px;
+  width: 100%;
+  height: 400px;
+}
+
+/* ButtonGroup.css */
+.button-group {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.button-primary,
+.button-secondary {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 180px;
+}
+
+.button-secondary1 {
+  padding: 10px 20px;
+  background-color: #01070f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+  width: 200px;
+  transition: all .3s;
+  height: 50px;
+}
+
+.button-secondary1:hover {
+  padding: 20px;
+}
+
+/* General styles */
+h2 strong {
+  color: blue;
+}
+
+p {
+  margin-top: 40px;
+  margin-left: 150px;
+  font-size: 30px;
+}
+
+h6 {
+  margin-top: 20px;
+}
+
+b {
+  color: blue;
+}
 }

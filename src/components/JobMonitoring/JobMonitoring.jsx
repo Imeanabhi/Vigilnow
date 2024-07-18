@@ -1,5 +1,5 @@
 import React from 'react';
-import './JobMonitoring.css'
+import '../APIMonitoring/APIMonitoring.css';
 import Job from '../../Images/Job.webp';
 import TrustedComp from '../TrustedComp/TrustedComp.jsx';
 import Track from '../../Images/Tracking.webp';
@@ -12,8 +12,8 @@ const JobMonitoring = () => {
          <div className="header-containerr">
       <div>
      <h2 className="header-title-Api">Simplify <strong>Job Monitoring</strong></h2><br/>
-     <p className='header-p'> Manage your application jobs effortlessly. Stay updated<br/>
-      on their performance and status, ensuring efficient<br/>
+     <p className='header-p'> Manage your application jobs effortlessly. Stay updated
+      on their performance and status, ensuring efficient
       execution and system reliability.
     <div className="button-group">
    < a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=job_monitoring_hero_section" target="blank"><button className="button-secondary1">Request a demo</button></a>   
