@@ -78,8 +78,10 @@ p{
   cursor: pointer; /* Cursor style */
   margin-top:20px;
   width:180px;
-
-  
+}
+.button-primary:hover{
+  color:white;
+  background-color: #f4c64d;
 }
 
 .button-secondary1 {
@@ -216,8 +218,16 @@ background-color:#ffc837;
 .header-title2{
 margin-left:150px;
 }
+.button-secondary1{
+  transition:padding 0.3s ease;
+  color:white;
+}
+.button-secondary1:hover{
+  padding:15px ;
+  background-color: #f4c64d;
+  color:white;
 
-
+}
 .container-Bottom {
   display: flex;
   align-items: center;

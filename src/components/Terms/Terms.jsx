@@ -11,8 +11,8 @@ const Terms = () => {
 THESE TERMS OF SERVICES IS AN ELECTRONIC RECORD IN THE FORM OF AN ELECTRONIC CONTRACT FORMED UNDER APPLICABLE LAWS AND THE AMENDED<br/>
 PROVISIONS PERTAINING TO ELECTRONIC DOCUMENTS / RECORDS IN VARIOUS STATUTES. THESE TERMS OF SERVICES DOES NOT REQUIRE ANY PHYSICAL,<br/>
  ELECTRONIC OR DIGITAL SIGNATURE.<br/><br/>
- PLEASE READ THESE TERMS OF SERVICES CAREFULLY. BY USING THE WEBSITE, YOU INDICATE THAT YOU UNDERSTAND, AGREE AND CONSENT TO THESE TERMS OF<br/>
-  SERVICES. IF YOU DO NOT AGREE WITH THE TERMS OF THESE TERMS OF SERVICES, PLEASE DO NOT USE THE PLATFORM OR SERVICES.
+ PLEASE READ THESE TERMS OF SERVICES CAREFULLY. BY USING THE WEBSITE, YOU INDICATE THAT YOU UNDERSTAND, AGREE AND CONSENT TO THESE TERMS<br/>
+  OF SERVICES. IF YOU DO NOT AGREE WITH THE TERMS OF THESE TERMS OF SERVICES, PLEASE DO NOT USE THE PLATFORM OR SERVICES.
   <br/><br/><br/>
   These Terms of Service (<m>“Terms”</m>) of the website located at the URL <a className="vigilq" href="http://localhost:3000/">https://vigilnow.com/</a> on mobile sites (referred to as <m>“Platform”</m>)  is between Foxsense<br/>
    Innovations Private Limited (referred as <m>“Company”</m> or <m>“we” </m>or <m>“us”</m> or <m>“our“</m>), a company incorporated under the Companies Act, 2013 with its registered <br/>
@@ -58,31 +58,31 @@ Before using certain areas of the Platform you may be asked to indicate your acc
   us via the Platform including document proofs or copies or any such information as required mandatorily by applicable law that need to be provided to us;<br/>
    and (iv) acknowledge and accept any applicable policies, including but not limited to those pertaining to service quality, confidentiality, User integrity,<br/>
     anti-harassment and conflict of interest. You will not use false identities or impersonate any other person or use another account that you are not <br/>
-    authorized to use on any computer, mobile phone, tablet, or other device <m>(collectively “Device”).  </m><br/>
+    authorized to use on any computer, mobile phone, tablet, or other device <m>(collectively “Device”).  </m><br/><br/>
 3. You may create an Account by using by logging into your account with Salesforce, a third-party website <m>(“Third Party Account”)</m>. You may link your <br/>Account, by
 either: (i) providing your Third Party Account login information to Platform; or (ii) allowing Platform to access your Third Party Account, as is permitted <br/>under the 
 applicable terms and conditions that govern your use of Third Party Account. You represent that you are entitled to disclose your Third Party Account login <br/>information
  to Platform and/or grant Platform access toy your Third Party Account (including, but not limited to, for use for the proposes described herein),<br/> without breach of any of the 
  terms and conditions that govern your use of the Third Party Account and without obligating Company you pay any fees or making<br/> Company subject to any usage limitations imposed 
- by such third-party service providers. <br/>
+ by such third-party service providers. <br/><br/>
 4. By granting Company access to any Third Party Account, you understand that the Company will access, make available and store (if applicable) any content<br/>
  that you have provided to and stored in your Third Party Account, so that it is available on and through the Platform. Unless otherwise specified in these Terms,<br/>
   all the Salesforce content, if any, will be considered to be User’s data for all purposes of these Terms. Depending on the Third Party Accounts, you choose and <br/>
   subject to the privacy settings that you have set in such Third Party Account, personal information that you post to your Third Party Account will be available<br/>
-on and through your Platform.<br/>
+on and through your Platform.<br/><br/>
 5. Please note that if a Third Party Account becomes unavailable, or User’s access to such Third Party Account is terminated by the third party service provider, <br/>
 then the third party content will no longer be available on and through the Platform. You have the ability to disable the connection between your Account and your<br/>
- Third Party Account, at any time. However, under such circumstances, the Services may be discontinued by the Company, at its sole discretion.<br/>
+ Third Party Account, at any time. However, under such circumstances, the Services may be discontinued by the Company, at its sole discretion.<br/><br/>
 6. Please note that your relationship with any third party service providers associated with your third party accounts is governed solely by your agreement(s) with<br/> 
 such third party service providers. Company makes no effort to review any third party content for any purpose, including but not limited to, for accuracy, legality <br/>
-or non-infringement and Company is not responsible for any third party content.<br/>
+or non-infringement and Company is not responsible for any third party content.<br/><br/>
 7. You are responsible for safeguarding and maintaining the confidentiality of your Account information. You agree not to disclose your Account information to any <br/>
 third party and that you are entirely and solely responsible for any and all activities or actions that occur pursuant to the use of your Account on the Platform, whether<br/>
-or not you have authorized such activities or actions. You will immediately notify Company of any unauthorized use of your Account. You may be held liable for losses<br/>
+or not you have authorized such activities or actions. You will immediately notify Company of any unauthorized use of your Account. You may be held liable for losses<br/><br/>
 incurred by Company due to authorized or unauthorized use of your Account as a result of your failure in keeping your Account Information secure and confidential.<br/>
 8. If you provide any information that is untrue, inaccurate, not current or incomplete (or becomes untrue, inaccurate, not current or incomplete), or Company has<br/>
  reasonable grounds to suspect that such information is untrue, inaccurate, not current or incomplete, Company has the right to suspend or terminate your Account and <br/>
- refuse any and all current or future use of the Platform / Services (or any portion thereof).<br/>
+ refuse any and all current or future use of the Platform / Services (or any portion thereof).<br/><br/>
 9. Your Services may begin with a trail period, wherein you may use the Services free of cost <m>(“Trial Period”).</m> The Trial Period will last for such period<br/>
  as determined by the Company. We determine all terms of any Trial Period, including the trial eligibility in our sole discretion and we may limit eligibility<br/>
   to prevent trial abuse. We reserve the right to revoke the Trial Period and suspend your Account at any time in the event we determine that you are in violation<br/>
@@ -274,7 +274,7 @@ Any events or initiatives that you may be interested in as part of the community
 Resolving any complaints, information, or queries by other Users regarding your critical content.<br/><br/>
 b) You agree to provide your fullest co-operation further to such communication by Company.<br/><br/>
 
- <m>18. DISCLAIMERS</m><br/><br/>
+<m>18. DISCLAIMERS</m><br/><br/>
  <div className="blu">
 1.  THE SERVICE RENDERED ON COMPANY‘S PLATFORM ARE PROVIDED “AS IS” AND “AS AVAILABLE”. COMPANY MAKES NO WARRANTIES, EXPRESSED OR IMPLIED, AND HEREBY DISCLAIMS AND NEGATES ALL OTHER WARRANTIES, INCLUDING WITHOUT LIMITATION, IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF INTELLECTUAL PROPERTY OR OTHER VIOLATION OF RIGHTS. FURTHERMORE, COMPANY DOES NOT WARRANT OR MAKE ANY REPRESENTATIONS CONCERNING THE ACCURACY, LIKELY RESULTS, OR RELIABILITY OF THE USE OF THE MATERIALS ON ITS PLATFORM OR OTHERWISE RELATING TO SUCH MATERIALS OR ON ANY SITES LINKED TO THIS SITE.<br/>
 2. THE COMPANY, ITS DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS, SPONSORS AND PARTNERS DO NOT WARRANT THAT: (A) THE SERVICE WILL BE SECURE OR AVAILABLE AT ANY PARTICULAR TIME OR LOCATION; (B) ANY DEFECTS OR ERRORS WILL BE CORRECTED; (C) ANY CONTENT OR SOFTWARE AVAILABLE AT OR THROUGH THE SERVICE IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS;  (D) THE RESULTS OF USING THE SERVICE WILL MEET YOUR REQUIREMENTS; (E) ANY INFORMATION PROVIDED BY US IN ANY WAY WILL MEET YOUR REQUIREMENTS ; OR (F) THE PLATFORM WILL BE FREE OF GLITCHES; ON  YOUR USE OF THE SERVICE IS SOLELY AT YOUR OWN RISK.<br/>

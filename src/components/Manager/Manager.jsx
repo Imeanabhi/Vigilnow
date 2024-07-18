@@ -14,8 +14,8 @@ const Manager = () => {
      <p className='header-p-teami'> 
      Stay on top of your responsibilities, and improve collaboration with development team
      <div className="button-groupis">
-      <button className="button-primary">Try for free</button>
-      <button className="button-secondary0">Request a demo</button>
+  <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=manager_hero_signup&_gl=1*10zy5p8*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDUxNzkwMC40NS4xLjE3MjA1MTgwNDMuMC4wLjA.&_ga=2.231882715.539706939.1720413142-871476253.1719329457" target='Blank'><button className="button-primary">Try for free</button></a>    
+    <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=manager_hero_demo" target="blank"><button className="button-secondary0">Request a demo</button> </a>
    </div>
     </p>
      </div>
@@ -86,7 +86,7 @@ const Manager = () => {
                 <h1 className="heading-Bottom">Take control and keep your APIs running smoothly—start<br/>
                  with a smarter monitoring approach today! </h1>
             </div>
-            <button className="action-button-Bottom">Request Demo</button>
+       <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=manager_next_action" target='blank '><button className="action-button-Bottom">Request Demo</button></a>
         </div>
         <br/><br/>
 

@@ -1,6 +1,6 @@
 .logo {
-    height: 70px; /* Adjust the height as per your requirement */
-    margin-right: 220px;
+    height: 100px; /* Adjust the height as per your requirement */
+    margin-right: 250px;
     margin-left:-20px;
     margin-top:-10px;/* Optional: Add margin for spacing */
   }
@@ -31,7 +31,7 @@
   }
   
   .navbar-nav .nav-item:last-child .btn {
-    margin-left: 10px; /* Space between last nav link and button */
+    margin-left: -10px; /* Space between last nav link and button */
   }
 
   .header .dropdown:hover .dropdown-menu {
@@ -39,7 +39,7 @@
   }
 
 .Button{
-    margin-left:325px;
+    margin-left:150px;
     width: 120px;
     height:50px;
 }

@@ -15,7 +15,6 @@ import Terms from './components/Terms/Terms.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Boosting from './components/Blogs/Boosting/Boosting.jsx';
 import FullStack from './components/Blogs/FullStack/FullStack.jsx';
-import Readmore from './components/Readmore/Readmore.jsx';
 //import TrustedComp from './components/TrustedComp/TrustedComp.jsx';
 import Streamline from './components/Blogs/Streamline/Streamline.jsx';
 import Operational from './components/Blogs/Operational/Operational.jsx';
@@ -40,7 +39,6 @@ function App() {
     <Route path="/Terms" element={<Terms/>}/>
     <Route path='/boosting-application-reliability' element={<Boosting/>}/>
     <Route path='/maximizing-full-stack-monitoring-efficiency' element={<FullStack/>}/>
-    <Route path='/enhancing-operational-efficiency' element={<Readmore/>}/>
     <Route path='/streamlining-full-stack-application-error-monitoring' element={<Streamline/>}/>
     <Route path='/enhancing-operational-efficiency-with-vigils' element={<Operational/>}/>
   </Routes>

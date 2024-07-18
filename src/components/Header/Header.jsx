@@ -31,7 +31,7 @@ function Header() {
             </NavDropdown>
             <Nav.Link href="http://localhost:3000/resources/">Resources</Nav.Link>
           </Nav>
-          <Button className='Button' href="http://localhost:3000/create_Acc" variant="primary">Get Started</Button>
+    <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=header&_gl=1*74f2yl*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDUxNzkwMC40NS4xLjE3MjA1MTgxNzIuMC4wLjA.&_ga=2.25779705.539706939.1720413142-871476253.1719329457" target="blank"><Button className='Button' variant="primary">Get Started</Button></a>      
         </Navbar.Collapse>
       </Container>
     </Navbar>

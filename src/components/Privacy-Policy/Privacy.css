@@ -1,12 +1,122 @@
+/* Default styles */
+@media (min-width:1441px) and (max-width:2000px){
 .Privacy-h1{
-    margin-left:500px;
-    margin-top:75px;
-    font-weight:bolder;
-    font-size:4em;
+    margin-left: 500px;
+    margin-top: 75px;
+    font-weight: bolder;
+    font-size: 4em;
 }
+
 .Privacy-p{
-    margin-left:150px;
-    width:1200px;
-    font-size:1em;
-    font-weight:490;
+    margin-left: 175px;
+    width: 80%;
+    font-size: 1.2em;
+    font-weight: 490;
+}
+}
+
+/* 320px - 376px */
+@media (min-width:320px) and (max-width: 376px) {
+    .Privacy-h1 {
+        margin-left: 40px;
+        margin-top: 10px;
+        font-size: 2.5em;
+       
+    }
+
+    .Privacy-p {
+        margin-left: 20px;
+        width: 90%;
+        font-size: 0.8em;
+    }
+}
+
+/* 377px - 475px */
+@media (min-width: 377px) and (max-width: 475px) {
+    .Privacy-h1 {
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 2.5em;
+    }
+
+    .Privacy-p {
+        margin-left: 30px;
+        width: 85%;
+        font-size: 0.9em;
+    }
+}
+
+/* 476px - 768px */
+@media (min-width: 476px) and (max-width: 768px) {
+    .Privacy-h1 {
+        margin-left: 200px;
+        margin-top: 50px;
+        font-size: 3.2em;
+    }
+
+    .Privacy-p {
+        margin-left: 40px;
+        width: 90%;
+        font-size: 1.2em;
+    }
+}
+
+/* 769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Privacy-h1 {
+        margin-left: 350px;
+        margin-top: 60px;
+        font-size: 4em;
+    }
+
+    .Privacy-p {
+        margin-left: 80px;
+        width: 97%;
+        font-size: 1.4em;
+    }
+}
+
+/* 1025px - 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .Privacy-h1 {
+        margin-left:360px;
+        margin-top: 75px;
+        font-size: 4.2em;
+    }
+
+    .Privacy-p {
+        margin-left: 100px;
+        width:80%;
+        font-size: 1.4em;
+    }
+}
+
+/* 1441px - 2560px */
+@media (min-width: 2001px) and (max-width: 2560px) {
+    .Privacy-h1 {
+        margin-left: 450px;
+        margin-top: 75px;
+        font-size: 5em;
+    }
+
+    .Privacy-p {
+        margin-left: 150px;
+        width: 70%;
+        font-size: 1.7em;
+    }
+}
+
+/* Above 2560px */
+@media (min-width: 2561px) {
+    .Privacy-h1 {
+        margin-left: 200px;
+        margin-top: 75px;
+        font-size: 4em;
+    }
+
+    .Privacy-p {
+        margin-left: 200px;
+        width: 50%;
+        font-size: 1.4em;
+    }
 }

@@ -16,7 +16,7 @@ const ErrorMonitoring = () => {
      <p className='header-p'> Easily discover, track and manage errors in. Get all the<br/> details you need,
        like the line of code and functions<br/> involved, to fix issues fast.
     <div className="button-group">
-      <button className="button-secondary1">Request a demo</button>
+   <a target="blank" href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=error_monitoring_hero_section" ><button className="button-secondary1">Request a demo</button></a> 
     </div>
     </p>
     </div>
@@ -34,7 +34,7 @@ const ErrorMonitoring = () => {
         deep insights into error patterns with detailed messages, simplifying<br/>
          troubleshooting and optimizing performance with ease.
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
+    <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=error_monitoring_feature_1&_gl=1*p25y14*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTYzODIuMC4wLjA.&_ga=2.198514795.539706939.1720413142-871476253.1719329457"target="blank"><button className="button-primary">Try for Free</button></a>
     </div>
     </p>
     </div>
@@ -51,7 +51,7 @@ const ErrorMonitoring = () => {
      prevent any incidents from slipping through the cracks. With Vigil, keep your<br/>
       incident management organized and efficient, all from one centralized hub.
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
+    <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=error_monitoring_feature_2&_gl=1*1y5ijx7*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTY3NDcuMC4wLjA.&_ga=2.256537807.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for Free</button></a> 
     </div>
     </p>
     </div>
@@ -69,7 +69,7 @@ const ErrorMonitoring = () => {
         factors such as request type, source, and app version, enabling you to tackle<br/>
          them with precision and speed.
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
+  <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=error_monitoring_feature_3&_gl=1*rba4ok*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTY3NDcuMC4wLjA.&_ga=2.260265801.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for Free</button></a>
     </div>
     </p>
     </div>
@@ -81,7 +81,7 @@ const ErrorMonitoring = () => {
                 <p className="content-Bottom">Next action</p>
                 <h1 className="heading-Bottom">Dont just discover errors, start monitoring better!</h1>
             </div>
-            <button  className="action-button-Bottom">Request Demo</button>
+       <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=error_monitoring_next_action" target="blank"><button  className="action-button-Bottom">Request Demo</button></a>
         </div>
 
 <Footer/>

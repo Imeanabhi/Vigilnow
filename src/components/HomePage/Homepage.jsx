@@ -26,8 +26,8 @@ const Homepage = () => {
      <p className='header-p'> Easily track and manage errors. Get all the details you <br/>
     need, like the line of code and functions involved, to<br/> fix issues fast.
     <div className="button-group">
-      <button className="button-primary">Try Vigil for free</button>
-      <button className="button-secondary0">Request a demo</button>
+     <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=homepage_hero_signup&_gl=1*422nb7*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1MjcyMS40My4xLjE3MjA0NTI3MzkuMC4wLjA.&_ga=2.189366255.539706939.1720413142-871476253.1719329457" target="blank"> <button className="button-primary">Try Vigil for free</button></a>
+     <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=homepage_hero_demo"target="blank"> <button className="button-secondary0">Request a demo</button></a>
     </div>
     <h6><b>*vigil</b> is free for 5 days</h6>
     </p>
@@ -58,7 +58,7 @@ const Homepage = () => {
         making them<br/> easier to identify. When unexpected exceptions occur,<br/>
        devs can group them for efficient resolution.
     <div className="button-group">
-      <button className="button-primary">Try Vigil for free</button>
+      <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=homepage_error_monitoring&_gl=1*9tmnjl*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1MjcyMS40My4xLjE3MjA0NTMyNjYuMC4wLjA.&_ga=2.235216069.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for free</button></a>
     </div>
     </p>
     </div>
@@ -73,7 +73,7 @@ const Homepage = () => {
       you to oversee and<br/> manage various scheduled and configured jobs. 
       Stay informed in real-time,<br/> ensuring the seamless execution of critical tasks.
     <div className="button-group">
-      <button className="button-primary">Try Vigil for free</button>
+     <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=homepage_job_monitoring&_gl=1*qy0p*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1MjcyMS40My4xLjE3MjA0NTM2MDEuMC4wLjA.&_ga=2.25967737.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for free</button></a>
     </div>
     </p>
     </div>
@@ -93,7 +93,7 @@ const Homepage = () => {
 
 
     <div className="button-group">
-      <button className="button-primary">Try Vigil for free</button>
+    <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=homepage_uptime_monitoring&_gl=1*vc9ga4*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1MjcyMS40My4xLjE3MjA0NTM2MDEuMC4wLjA.&_ga=2.201937877.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for free</button></a>
     </div>
     </p>
     </div>
@@ -106,7 +106,7 @@ const Homepage = () => {
        crashes, or other<br/>disruptions. Analyze the performance of your APIs & third-party
         integrations<br/> with Vigil’s robust API monitoring.
     <div className="button-group">
-      <button className="button-primary">Try Vigil for free</button>
+    <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=homepage_api_monitoring&_gl=1*5rtm5y*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1MjcyMS40My4xLjE3MjA0NTM2MDEuMC4wLjA.&_ga=2.260265801.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for free</button></a>
     </div>
     </p>
     </div>
@@ -190,7 +190,7 @@ Got <n>questions?</n><br/>We've gathered some <n>answers</n>
                 
                 <h1 className="heading-Bottom">Find out how <n className='jump'>Vigil</n> can help monitor your applications </h1>
             </div>
-            <button className="action-button-Bottom">Talk to an expert</button>
+        <a href="https://calendly.com/maniteja-pm-vigil/30min?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=homepage_next_action" target="blank"> <button className="action-button-Bottom">Talk to an expert</button></a>
         </div>
         <br/><br/><br/><br/>
 

@@ -16,8 +16,8 @@ const DevelopmentTeams = () => {
      Vigil’s proactive monitoring enables faster discovery and quicker resolutions
      </p>
      <div className="button-groupi">
-      <button className="button-primary">Try for free</button>
-      <button className="button-secondary0">Request a demo</button>
+     < a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=teams_hero_signup&_gl=1*qnjma2*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTkxNjguMC4wLjA.&_ga=2.222526559.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for free</button></a> 
+     <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=teams_hero_demo" target="blank"><button className="button-secondary0">Request a demo</button></a>
    </div>
     </p>
      </div>
@@ -37,8 +37,7 @@ const DevelopmentTeams = () => {
           potential issues are detected early, allowing your<br/>
            team to address them promptly and avoid costly downtime.
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
-    </div>
+         </div>
     </p>
     </div>
     </div>
@@ -84,7 +83,7 @@ const DevelopmentTeams = () => {
                 <h1 className="heading-Bottom">Take control and keep your APIs running smoothly—start<br/>
                  with a smarter monitoring approach today! </h1>
             </div>
-            <button className="action-button-Bottom">Request Demo</button>
+           <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=teams_next_action" target="blank"><button className="action-button-Bottom">Request Demo</button></a> 
         </div>
         <br/><br/>
 

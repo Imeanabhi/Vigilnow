@@ -1,6 +1,6 @@
 import React from 'react'
 import './APIMonitoring.css';
-import Api from '../../Images/API.webp';
+import API from '../../Images/API.webp';
 import TrustedComp from '../TrustedComp/TrustedComp';
 import Deploy from '../../Images/Deploy.webp';
 import Stream from '../../Images/Streamline.webp';
@@ -11,17 +11,17 @@ const APIMonitoring = () => {
     <div>
          <div className="header-containerr">
       <div>
-     <h2 className="header-title-Api">Simplify <strong>API </strong> Performance Monitoring</h2><br/>
+     <h2 className="header-title-Api">Simplify <strong>API </strong>Performance<br/> Monitoring</h2><br/>
      <p className='header-p'>Keep an eye on API health, performance, and usage<br/>
       effortlessly, ensuring smooth integration and dependable<br/>
        service delivery.
     <div className="button-group">
-      <button className="button-secondary1"> Request a demo </button>
+   <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=api_monitoring_hero_section" target="blank"><button className="button-secondary1"> Request a demo </button></a>   
     </div>
   
     </p>
     </div>
-    <img src={Api} alt="Company Logo" className="header-logo-Api" />
+    <img src={API} alt="Company Logo" className="header-logo-Api" />
      </div>
      <br/><br/><br/><br/>
      <TrustedComp/>
@@ -32,9 +32,9 @@ const APIMonitoring = () => {
      <p className='header-p-Error'>Easily track API interactions with a unified dashboard that offers<br/>
       a clear view of API performance metrics and overall health
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
+     <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=api_monitoring_feature_1&_gl=1*7cn5ry*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTgyNjkuMC4wLjA.&_ga=2.261372105.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for Free</button></a> 
     </div>
-    </p>
+    </p>  
     </div>
     </div>
   
@@ -43,11 +43,11 @@ const APIMonitoring = () => {
       <div>
      <h2 className="header-title-Insights">
      Gather <l>Detailed</l> Insights</h2><br/>
-     <p className='header-p-Insights'>Get a clear picture of how your APIs are performing with data on response times,<br/>
-      error rates, and usage patterns, making it easier to understand how your systems <br/>
-      interact and where improvements can be made.
+     <p className='header-p-Insights'>Get a clear picture of how your APIs are performing<br/> with data on response times,
+      error rates, and usage<br/> patterns, making it easier to understand how your<br/> systems
+      interact and where improvements can be <br/>made.
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
+   <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=api_monitoring_feature_2&_gl=1*1ma16iy*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTgyNjkuMC4wLjA.&_ga=2.260198601.539706939.1720413142-871476253.1719329457" target="blank" ><button className="button-primary">Try for Free</button></a>
     </div>
     </p>
     </div>
@@ -60,12 +60,12 @@ const APIMonitoring = () => {
     <img src={Insights} alt="Company Logo" className="header-logo-Flow" />
       <div>
      <h2 className="header-title-Flow">Improve Operational <l>Flow</l></h2><br/>
-     <p className='header-p-Flow'>Address API issues proactively and adjust your systems for better<br/>
-      interaction, which helps maintain a steady and responsive service<br/>
+     <p className='header-p-Flow'>Address API issues proactively and adjust your systems for better
+      interaction,which helps maintain a steady and responsive service
        environment
 
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
+    <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=api_monitoring_feature_3&_gl=1*mq2bpz*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTgyNjkuMC4wLjA.&_ga=2.194272489.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for Free</button></a>
     </div>
     </p>
     </div>
@@ -76,9 +76,9 @@ const APIMonitoring = () => {
             <div className="text-content-Bottom">
                 <p className="content-Bottom">Next action</p>
                 <h1 className="heading-Bottom">Take control and keep your APIs running smoothly—start<br/>
-                 with a smarter monitoring approach today! </h1>
+                with a smarter monitoring approach today! </h1>
             </div>
-            <button className="action-button-Bottom">Request Demo</button>
+        < a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=api_monitoring_next_action" target="blank"><button className="action-button-Bottom">Request Demo</button></a>
         </div>
         <Footer/>
     </div>

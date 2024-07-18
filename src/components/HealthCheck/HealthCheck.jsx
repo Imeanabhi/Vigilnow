@@ -12,57 +12,57 @@ const HealthCheck = () => {
     <div>
          <div className="header-containerr">
       <div>
-     <h2 className="header-title3">Optimize <strong>Application </strong>Performance</h2><br/>
+     <h2 className="header-title-Api">Optimize <strong>Application </strong>Performance</h2><br/>
      <p className='header-p'> Keep an eye on the health of your applications. Stay <br/>informed
       about their performance and potential issues,<br/>
       enabling prompt action to ensure optimal operations.
     <div className="button-group">
-      <button className="button-secondary1">Request a demo</button>
+   <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=health_check_hero_section" target="blank"><button className="button-secondary1">Request a demo</button></a>   
     </div>
 
     </p>
     </div>
-    <img src={Health} alt="Company Logo" className="header-logoo" />
+    <img src={Health} alt="Company Logo" className="header-logo-Api" />
      </div>
      <br/><br/><br/><br/>
      <TrustedComp/>
-     <div className="header-container-Up">
-      <img src={Up} alt="Company Logo" className="header-logo-Up" />
+     <div className="header-container-Error">
+      <img src={Up} alt="Company Logo" className="header-logo-Error" />
       <div>
-     <h2 className="header-title-Up">Always be<l> available</l> for your<br/> customers</h2><br/>
-     <p className='header-p-Up'>Your applications and their integrations are continuously monitored to<br/>
+     <h2 className="header-title-Error">Always be<l> available</l> for your<br/> customers</h2><br/>
+     <p className='header-p-Error'>Your applications and their integrations are continuously monitored to<br/>
       ensure they’re up and running smoothly. No more worrying about<br/>
        unexpected downtime disrupting your business operations – Vigil keeps a<br/>
         vigilant eye, 24/7.
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
+  <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=health_check_feature_1&_gl=1*1a4akz7*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTcyMzMuMC4wLjA.&_ga=2.34807269.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for Free</button></a>
     </div>
     </p>
     </div>
     </div>
   
     
-    <div className="header-container-Tracki">
+    <div className="header-container-Insights">
       <div>
-     <h2 className="header-title-Track"><l>Track</l> & <l>Improve</l> Application Availability</h2>
-     <p className='header-p-Track'>Receive immediate alerts with ob monitoring, empowering 
+     <h2 className="header-title-Insights"><l>Track</l> & <l>Improve</l> Application Availability</h2>
+     <p className='header-p-Insights'>Receive immediate alerts with ob monitoring, empowering 
       you to oversee and<br/> manage various scheduled and configured jobs. 
       Stay informed in real-time,<br/> ensuring the seamless execution of critical tasks.
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
+    <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=health_check_feature_2&_gl=1*1hucqcp*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTcyMzMuMC4wLjA.&_ga=2.193140585.539706939.1720413142-871476253.1719329457"target="blank"><button className="button-primary">Try for Free</button></a>
     </div>
     </p>
     </div>
     </div>
-    <img src={Percentage} alt="Company Logo" className="header-logo-Percentage" />
+    <img src={Percentage} alt="Company Logo" className="header-logo-Insights" />
     
     
     
-    <div className="header-container-Summary ">
-    <img src={web} alt="Company Logo" className="header-logo-Summary" />
+    <div className="header-container-Flow ">
+    <img src={web} alt="Company Logo" className="header-logo-Flow" />
       <div>
-     <h2 className="header-title-Summary">Stay in the Loop & <l>Act Fast</l></h2><br/>
-     <p className='header-p-Summary'>With one-click integration, stay informed and take action swiftly. Receive <br/>
+     <h2 className="header-title-Flow">Stay in the Loop & <l>Act Fast</l></h2><br/>
+     <p className='header-p-Flow'>With one-click integration, stay informed and take action swiftly. Receive <br/>
      instant alerts via email, in-app notifications, or your preferred platforms like<br/>
       Slack or Microsoft Teams. With Vigil, you’ll always be the first to know,<br/>
        empowering you to address any issues promptly and keep your business<br/>
@@ -70,7 +70,7 @@ const HealthCheck = () => {
 
 
     <div className="button-group">
-      <button className="button-primary">Try for Free</button>
+   <a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=health_check_feature_3&_gl=1*1hucqcp*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTcyMzMuMC4wLjA.&_ga=2.193140585.539706939.1720413142-871476253.1719329457"target="blank"><button className="button-primary">Try for Free</button></a>  
     </div>
     </p>
     </div>
@@ -81,7 +81,7 @@ const HealthCheck = () => {
                 <p className="content-Bottom">Next action</p>
                 <h1 className="heading-Bottom">Start monitoring your applications' uptime</h1>
             </div>
-            <button className="action-button-Bottom">Request Demo</button>
+   <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=health_check_next_action"target="Blank"     >   <button className="action-button-Bottom">Request Demo</button></a> 
         </div>
 
 

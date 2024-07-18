@@ -66,13 +66,13 @@ const Resources = () => {
       <a href="http://localhost:3000/maximizing-full-stack-monitoring-efficiency" className="url">Maximizing Full Stack Monitoring Efficiency with Vigil’s API Monitoring Feature</a>
       <p className="bulbul">24th April 2024</p>
       <div className="divider"></div>
-      <a href="http://localhost:3000/streamlining-full-stack-application-error-monitoring" className="urli">Streamlining Full Stack Application Error Monitoring with Vigil: A Game-Changer for Development Teams</a>
+      <a href="http://localhost:3000/streamlining-full-stack-application-error-monitoring" className="url">Streamlining Full Stack Application Error Monitoring with Vigil: A Game-Changer<br/> for Development Teams</a>
       <p className="bulbul">24th April 2024</p>
     </div>
   
     </div>
     <h3 className="boom1">Enhancing Operational Efficiency with Vigil’s Job Monitoring<br/> Feature</h3>
-  <a href="http://localhost:3000/enhancing-operational-efficiency" className="Readmore">Read more</a>
+  <a href="http://localhost:3000/enhancing-operational-efficiency-with-vigils" className="Readmore">Read more</a>
 
 
 
@@ -81,7 +81,7 @@ const Resources = () => {
                 
                 <h1 className="heading-Bottom">Find out how Vigil can help monitor your applications</h1>
             </div>
-            <button  className="action-button-Bottom">Request Demo</button>
+      <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=resources" target="blank"><button  className="action-button-Bottom">Request Demo</button></a>
         </div>
 
 

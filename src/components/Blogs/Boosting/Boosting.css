@@ -1,17 +1,35 @@
-.Boosting{
-    width:1000px;
+
+@media (min-width: 1441px) and (max-width: 2560px) 
+{
+    .boostings {
+        margin-left: -100px;
+        max-width: 100%;
+        width:100%;
+        font-size: 1.2em;
+    }
+
+    .BoostContent{
+        margin-left:120px;
+        width:100%;
+        max-width:100%;
+        font-size:1.3em;
+    }
+.Boostings{
+    max-width:60%;
+    width:60%;
     margin-left:450px;
-    margin-top:170px;
-    font-size:3em;
+    margin-top:90px;
+    font-size:3.4em;
+    font-weight:700;
 }
-.header-logo-Boost{
-    margin-left:400px;
+.header-logo-Boosti{
+    margin-left:500px;
     margin-top:50px;
-    width:40%;
+    width:30%;
     height:30%;
 }
 .Boosting-p{
-    width:50%;
+    width:40%;
     margin-left:400px;
     font-size:1em;
     font-weight:400;
@@ -74,22 +92,23 @@
     margin-top:-3px;
 }
 
-.related{
+.relateds{
     margin-top:20px;
-    margin-left:400px;
+    margin-left:370px;
     font-size:1em;
     font-weight:bold;
     margin-bottom:80px;
 }
 
 .content-container {
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    gap:px; /* This creates space between the content blocks */
+    gap:-50px; /* This creates space between the content blocks */
     background-color: white;
-    margin-left:350px;
+    margin-left:200px;
     margin-top:-80px;
-    width:60%;
+    width:40%;
+    margin-bottom:120px;
   }
   
   .content-block {
@@ -100,13 +119,201 @@
     border:none;
     background-color: white;
     font-size:1em;
-    width:10%;
+    width:80%;
   }
   
   .url-blog{
 color:blue;
+width:150%;
   }
   .url-blog:hover{
     color:rgba(16, 1, 1, 0.893);
-
   }
+  .end{
+    margin-left:150px;
+}
+
+}
+
+/* Responsive styles */
+/* Small devices (375px) */
+@media (min-width: 320px) and (max-width: 376px) {
+    .boostings{
+        margin-left:-350px;
+        max-width:190%;
+        width:190%;
+        font-size:0.8em;
+    }
+    .BoostContent{
+        margin-left:px;
+        width:100%;
+        max-width:100%;
+        font-size:1.5em;
+    }
+    .Boostings{
+    width:1000px;
+    max-width:50%;
+    margin-left:400px;
+    margin-top:8px;
+    font-size:2em;
+    font-weight:700;
+    }
+    .header-logo-Boosti{
+        margin-left:400px;
+        margin-top:50px;
+        width:40%;
+        height:40%;
+    }
+}
+
+@media (min-width: 377px) and (max-width: 475px) {
+    .boostings {
+        margin-left: -350px;
+        max-width: 100%;
+        font-size: 0.9em;
+    }
+    .Boostings {
+    margin-left: -30px;
+    width:1000px;
+    max-width:45%;
+    margin-left:400px;
+    margin-top:8px;
+    font-size:1.6em;
+    font-weight:700;
+    }
+    .BoostContent{
+        margin-left:px;
+        width:100%;
+        max-width:100%;
+        font-size:1.5em;
+    }
+
+    .header-logo-Boosti{
+        margin-left:400px;
+        margin-top:50px;
+        width:40%;
+        height:40%;
+    }
+}
+
+/* Tablets (476px to 768px) */
+@media (min-width: 475px) and (max-width: 768px) {
+    .boostings {
+        margin-left: 300px;
+        max-width: 150%;
+        width: 150%;
+        font-size: 1.2em;
+    }
+    .header-logo-Boosti{
+        margin-left:400px;
+        margin-top:50px;
+        width:40%;
+        height:40%;
+    }
+    .BoostContent{
+        margin-left:-20px;
+        width:160%;
+        max-width:160%;
+        font-size:1.2em;
+    }
+    .Boostings {
+        margin-left: 400px;
+        max-width: 60%;
+        width:60%;
+        max-height: 25%;
+        font-size: 2.5em;
+        height: 25%;
+        margin-top:40px;
+        font-weight:700;
+    }
+
+}
+
+/* Small desktops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .boostings {
+        margin-left: 100px;
+        max-width:100%;
+        width:100%;
+        font-size: 1.5em;
+    }
+    .Boostings{
+        margin-left: 400px;
+        max-width: 60%;
+        width:60%;
+        max-height: 20%;
+        font-size: 2.2em;
+        height: 20%;
+        margin-top:60px;
+        font-weight:700
+    }
+
+    .BoostContent{
+        margin-left:-50px;
+        width:100%;
+        max-width:100%;
+        font-size:1.3em;
+    }
+.header-logo-Boosti{
+        margin-left:400px;
+        margin-top:50px;
+        width:40%;
+        height:40%;
+    }
+
+
+}
+
+/* Large desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .boostings {
+        margin-left: 100px;
+        max-width: 100%;
+        width:100%;
+        font-size: 1.5em;
+    }
+    .header-logo-Boosti{
+        margin-left:400px;
+        margin-top:50px;
+        width:40%;
+        height:40%;
+    }
+    .BoostContent{
+        margin-left:-150px;
+        width:200%;
+        max-width:200%;
+        font-size:1.5em;
+    }
+    .Boostings{
+        margin-left: 400px;
+        max-width: 80%;
+        width:70%;
+        font-weight: 700;
+        margin-top:200px;
+        max-height: 20%;
+        font-size: 2.9em;
+        height: 20%;
+    }
+    .end{
+        margin-left:-150px;
+    }
+}
+
+/* Very large desktops (1441px to 2560px) */
+
+
+/* Extra large desktops (2561px and above) */
+@media (min-width: 2561px) {
+    .boostings {
+        margin-left: 100px;
+        max-width: 70%;
+        font-size: 2em;
+    }
+    .Boosting {
+        margin-left: 100px;
+        max-width: 75%;
+        max-height: 35%;
+        font-size: 3em;
+        height: 35%;
+    }
+}

@@ -1,15 +1,17 @@
 import React from 'react'
 import './Boosting.css';
-import Boost from '../../../Images/Boosting.jpeg'
+import Boostin from '../../../Images/Boosti.webp'
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { MdStarBorder } from "react-icons/md";
+import Footer from '../../Footer/Footer.jsx'
 const Boosting = () => {
   return (
-    <div>
-      <h1 className="Boosting">Boosting Application <br/>Reliability with Vigil’s Uptime <br/>Monitoring Solution
+    <div className="boostings">
+      <h1 className="Boostings">Boosting Application Reliability with Vigil’s Uptime Monitoring Solution
       </h1>
-      <img src={Boost} alt="Company Logo" className="header-logo-Boost" />
+      <img src={Boostin} alt="Company Logo" className="header-logo-Boosti" />
+      <div className="BoostContent">
     <p className="Boosting-p">In today’s digital age, application downtime is not just an inconvenience; it’s a potential disaster that can wreak havoc on business operations, customer satisfaction, and brand reputation. That’s where Vigil’s Uptime Monitoring solution comes into play, empowering development teams to ensure maximum uptime and reliability for their applications.
 <br/><br/>
 <m className='Boostm'>The Importance of Uptime Monitoring</m><br/><br/>
@@ -23,6 +25,8 @@ Customizable Alerting: Customize alerting settings to suit your specific require
 <m className="Boostm">Elevate Your Application Reliability with Vigil</m>  <br/><br/>
 With Vigil’s Uptime Monitoring solution, development teams can rest assured knowing that their applications are monitored around the clock, with proactive alerting and actionable insights to minimize downtime and maximize reliability. 
 Say goodbye to sleepless nights and hello to a future where application uptime is guaranteed, all thanks to Vigil.</p>
+</div>
+<div className="end">
 <p className="Share">Share this</p>
 <br/>  <br/>
 
@@ -32,7 +36,7 @@ Say goodbye to sleepless nights and hello to a future where application uptime i
 uptime-monitoring-solution%252F%26t%3DBoosting%2BApplication%2BReliability%2Bwith%2BVigil%2527s%2BUptime%2BMonitoring%2BSolution&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_GB" target="blank"className="Facebook"><FaFacebookSquare /><p className="Facebook-p">click for sharing <br/> in facebook</p></a>
 
 <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fpublic.api%2Fconnect%2F%3Faction%3Dverify%26service%3Dwordpress%26blog_id%3D227137630&action=highlander-login&signup_flow=account" target='blank' className="Star"><MdStarBorder /><p className="like-this">be the first one to like this</p></a>
-<p className="related">
+<p className="relateds">
 Related
 </p>
 <div className="content-container">
@@ -44,14 +48,15 @@ Related
       <a href="http://localhost:3000/maximizing-full-stack-monitoring-efficiency" className="url-blog">Maximizing Full Stack Monitoring Efficiency with Vigil’s API Monitoring Feature</a>
       </div>
       <div className="content-block">
-      
-        <p>This is the third content block.</p>
+      <a href="http://localhost:3000/enhancing-operational-efficiency-with-vigils" className="url-blog">Enhancing Operational Efficiency with Vigil’s Job Monitoring Feature</a>
       </div>
+      </div>
+      </div>
+
+<Footer/>
+
     </div>
 
-
-</div>
-    
 
   )
 }

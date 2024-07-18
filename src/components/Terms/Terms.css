@@ -1,15 +1,121 @@
+/* Default styles */
+@media (min-width: 1441px) and (max-width: 2000px){
 .Terms-h1{
-    display:center;
+    display:flex;
     font-weight: 700;
-    font-size:60px;
-    margin-left:500px;
-    margin-top:80px;
+    font-size: 60px;
+    margin-left: 475px;
+    margin-top: 80px;
 }
+
 .Terms-p{
-    margin-top:60px;
+    margin-top: 60px;
     font-size: 1.1em;
     font-weight: 400;
+    margin-left:130px;
 }
+}
+
+/* 320px - 375px */
+@media (min-width:300px) and (max-width: 376px) {
+    .Terms-h1 {
+        display: block;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: 36px;
+    }
+
+    .Terms-p {
+        margin-top: 20px;
+        font-size: 1.2em;
+        margin-left:12px;
+        width:100%;
+    }
+}
+
+/* 376px - 475px */
+@media (min-width: 377px) and (max-width: 475px) {
+    .Terms-h1 {
+        display: block;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 44px;
+    }
+
+    .Terms-p {
+        margin-top: 20px;
+        font-size: 1.2em;
+        margin-left:30px;
+        width:100%;
+    }
+}
+
+/* 476px - 768px */
+@media (min-width: 476px) and (max-width: 768px) {
+    .Terms-h1 {
+        display: block;
+        margin-left: 150px;
+        margin-top: 40px;
+        font-size: 60px;
+    }
+
+    .Terms-p {
+        margin-top: 40px;
+        margin-left:25px;
+        width:95%;
+        font-size: 1.2em;
+    }
+}
+
+/* 769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Terms-h1 {
+        display: block;
+        margin-left: 250px;
+        margin-top: 60px;
+        font-size: 70px;
+    }
+
+    .Terms-p {
+        margin-top: 50px;
+        margin-left:50px;
+        width:100%;
+        font-size: 1.1em;
+    }
+}
+
+/* 1025px - 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .Terms-h1 {
+        display: block;
+        margin-left: 400px;
+        margin-top: 70px;
+        font-size: 70px;
+    }
+
+    .Terms-p {
+        margin-top: 60px;
+        width:95%;
+        margin-left:50px;
+        font-size: 1.3em;
+    }
+}
+
+/* 2001px - 2056px */
+@media (min-width: 2001px) and (max-width: 2560px) {
+    .Terms-h1 {
+        display: block;
+        margin-left: 850px;
+        margin-top: 80px;
+        font-size:100px;
+    }
+
+    .Terms-p {
+        margin-top: 70px;
+        font-size: 1.8em;
+    }
+}
+
 m{
     font-weight:bold;
 }
@@ -26,6 +132,5 @@ a:hover {
     color: yellow; /* Color change on hover */
 }
 .blu{
-    width:1250px;
-    font-size:17px;
+    width:95%;
 }
