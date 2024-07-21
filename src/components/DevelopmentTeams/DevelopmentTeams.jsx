@@ -9,47 +9,47 @@ import Footer from '../Footer/Footer.jsx';
 const DevelopmentTeams = () => {
   return (
     <div>
-       <div className="header-container-Teams">
-     <h2 className="header-title-Team">Spend more time developing, less time<br/> finding errors</h2>
-     <p className='header-p-teams'> 
-      <p className="re">
+       <div className="header-containerr">
+        <div>
+     <h2 className="header-title-Api">Spend more time developing, less time finding errors</h2>
+     <p className='header-p'> 
      Vigil’s proactive monitoring enables faster discovery and quicker resolutions
-     </p>
-     <div className="button-groupi">
+     <div className="button-group">
      < a href="https://app.vigilnow.com/signUp?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=teams_hero_signup&_gl=1*qnjma2*_ga*ODcxNDc2MjUzLjE3MTkzMjk0NTc.*_ga_J431DF6MQN*MTcyMDQ1NjEwMC40NC4xLjE3MjA0NTkxNjguMC4wLjA.&_ga=2.222526559.539706939.1720413142-871476253.1719329457" target="blank"><button className="button-primary">Try for free</button></a> 
      <a href="https://vigilnow.com/book-a-demo/?utm_source=Vigilnow&utm_medium=website&utm_campaign=landing_page&utm_term=teams_hero_demo" target="blank"><button className="button-secondary0">Request a demo</button></a>
    </div>
     </p>
+    </div>
      </div>
      <br/><br/><br/><br/>
 
 
 
-     <div className="header-container-Imm">
+     <div className="header-container-Error">
       <div>
-     <h2 className="header-title-Imm">
-     Immediate Insights, Proactive<br/> Management</h2>
-     <p className='header-p-Imm'>Vigil offers immediate, comprehensive insights into<br/>
-      your full stack applications’ health and performance.<br/>
-       Developers can monitor key metrics across both front-end<br/>
-        and back-end components, ensuring your applications<br/>
-         run seamlessly. With Vigil’s real-time alerts,<br/>
-          potential issues are detected early, allowing your<br/>
+     <h2 className="header-title-Error">
+     Immediate Insights,Proactive Management</h2>
+     <p className='header-p-Error'>Vigil offers immediate, comprehensive insights into
+      your full stack applications’ health and performance.
+       Developers can monitor key metrics across both front-end
+        and back-end components, ensuring your applications
+         run seamlessly. With Vigil’s real-time alerts,
+          potential issues are detected early, allowing your
            team to address them promptly and avoid costly downtime.
     <div className="button-group">
          </div>
     </p>
     </div>
     </div>
-    <img src={Track} alt="Company Logo" className="header-logo-Imm" />
+    <img src={Track} alt="Company Logo" className="header-logo-Error" />
     
 
 
-    <div className="header-container-Streamlined">
-      <img src={Up} alt="Company Logo" className="header-logo-Streamlined" />
+    <div className="header-container-Insights">
+      <img src={Up} alt="Company Logo" className="header-logo-Insights" />
       <div>
-     <h2 className="header-title-Streamlined">Streamlined Optimization</h2><br/>
-     <p className='header-p-Up'>Take the complexity out of optimizing your applications with Vigil.<br/>
+     <h2 className="header-title-Insights">Streamlined Optimization</h2><br/>
+     <p className='header-p-Insights'>Take the complexity out of optimizing your applications with Vigil.<br/>
       Achieve deeper understanding of server responses, API call<br/>
        efficiency, and database load times. Identify performance<br/>
         bottlenecks and refine your codebase to enhance application <br/>
@@ -60,22 +60,22 @@ const DevelopmentTeams = () => {
     </div>
     </div>
 
-    <div className="header-container-Imm">
+    <div className="header-container-Flow">
       <div>
-     <h2 className="header-title-Imm">
+     <h2 className="header-title-Flow">
      Collaboration for Higher<br/> Productivity</h2>
-     <p className='header-p-Imm'>Vigil promotes effortless collaboration within<br/>
-      development teams through its user-friendly dashboard <br/>
-      and communication tools. Share critical updates, resolve<br/>
-       issues collaboratively, and track enhancements in real time,<br/>
-        fostering a unified approach to project management.<br/>
-         Whether your team is local or distributed globally,<br/>
-          Vigil helps streamline workflows, speeding up <br/>
+     <p className='header-p-Flow'>Vigil promotes effortless collaboration within
+      development teams through its user-friendly dashboard 
+      and communication tools. Share critical updates, resolve
+       issues collaboratively, and track enhancements in real time,
+        fostering a unified approach to project management.
+         Whether your team is local or distributed globally,
+          Vigil helps streamline workflows, speeding up 
           development cycles and increasing productivity.
     </p>
     </div>
     </div>
-    <img src={Dat} alt="Company Logo" className="header-logo-Imm" />
+    <img src={Dat} alt="Company Logo" className="header-logo-Flow" />
     
     <div className="container-Bottom">
             <div className="text-content-Bottom">

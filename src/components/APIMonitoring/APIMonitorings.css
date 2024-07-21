@@ -304,7 +304,7 @@ b {
   }
 
   .header-logo-Flow {
-      width: 85%;
+      width: 80%;
       height:auto;
       margin-top:-350px;
       margin-left: 10px;
@@ -363,8 +363,9 @@ margin-left:1px;
   }
 
   .header-container-Flow {
-    margin-top:-150px;
+    margin-top:-40px;
     margin-bottom:40px;
+    height:800px;
     width:100%;
 
    }    
@@ -813,10 +814,11 @@ border-radius: 1px;
 
 @media (min-width: 577px) and (max-width: 768px) {
   .header-title-Api {
-    margin-left: 200x;
+    margin-left: 80px;
     font-size: 2.8em;
+    margin-right:20px;
     margin-top:-300px;
-    width:150%;
+    width:170%;
   }
   .header-title-Flow {
     margin-left: 40px;
@@ -826,9 +828,9 @@ border-radius: 1px;
   .header-logo-Api{
     width: 58%;
     max-width: 768px;
-    margin-left:-300px;
+    margin-left:-250px;
     margin-right:200px;
-    margin-top: 500px;
+    margin-top: 400px;
   }
   .button-secondary1 {
     width: 50%;
@@ -861,11 +863,11 @@ border-radius: 1px;
     margin-top: 0px;
   }
   .header-p{
-    margin-left: 150px;
+    margin-left: 100px;
     padding-right: 25px;
-    font-size: 1.3em;
-    width:120%;
-    max-width:120%;
+    font-size: 1.4em;
+    width:160%;
+    max-width:160%;
     margin-top: -10px;
   }
   .header-p-Flow {
@@ -936,6 +938,9 @@ margin-top:-2px;
 
     margin-left:1px;
   }
+  .header-container-Error{
+    height:600px;
+  }
   .header-container-Flow {
     margin-top: 5px;
     margin-bottom: 25px;
@@ -946,7 +951,6 @@ margin-top:-2px;
   .header-container-Insights {
     background-color: transparent;
     width: 100%;
-
     margin-top:-42px;
   }
   .container-Bottom {
@@ -959,7 +963,7 @@ margin-top:-2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 768px;
     width:90%;
-    height: 300px;
+    height: 400px;
     margin-top: 10px;
     margin-bottom:50px;
     border: 2px solid #646464; /* Add border */
@@ -1068,7 +1072,7 @@ margin-top:-2px;
   .header-p-Flow {
     margin-left: 30px;
     padding-right: 30px;
-    font-size: 1em;
+    font-size: 1.3em;
     max-width: 100%;
     width:100%;
     margin-top: -10px;
@@ -1105,6 +1109,7 @@ margin-top:-2px;
   .header-title-Flow {
     margin-left: 30px;
     margin-right: 20px;
+    font-size:2.4em;
   }
   .header-title-Insights {
     margin-left: 60px;
@@ -1126,7 +1131,7 @@ margin-top:-2px;
   .header-container-Insights,
   .header-container-Flow {
     margin-top: -2px;
-    height: 550px;
+    height: 630px;
     width: 100%;
     margin-bottom: 40px;
     margin-left: 1px;
@@ -1200,9 +1205,9 @@ margin-top:-2px;
 
 @media (min-width: 993px) and (max-width: 1440px) {
   .header-title-Api {
-    margin-left: 20px;
-    font-size: 5em;
-    width:200%;
+    margin-left: 10px;
+    font-size: 3.4em;
+    width:180%;
     max-width:200%;
     margin-top: -100px;
   }
@@ -1248,14 +1253,14 @@ margin-top:-2px;
   .header-p-Insights {
     margin-left:70px;
     padding-right: 30px;
-    font-size: 1.2em;
-    max-width: 90%;
+    font-size: 1.4em;
+    max-width: 50%;
     margin-top: 0px;
   }
   .header-p {
     margin-left: 10px;
     padding-right: 30px;
-    font-size: 2em;
+    font-size: 1.6em;
     width: 160%;
     max-width: 160%;
     margin-top: -10px;
@@ -1264,8 +1269,8 @@ margin-top:-2px;
     margin-left: 40px;
     padding-right: 30px;
     font-size: 1.4em;
-    max-width: 110%;
-    width: 110%;
+    max-width: 100%;
+    width: 100%;
     margin-top: -10px;
   }
   .header-p-Flow .button-primary {
@@ -1280,9 +1285,9 @@ margin-top:-2px;
     margin-left: 50px;
   }
   .header-logo-Insights {
-    width: 40%;
+    width: 45%;
     height: auto;
-    margin-left: 600px;
+    margin-left: 850px;
     margin-top: -750px;
   }
   .header-logo-Flow {
@@ -1303,8 +1308,8 @@ margin-top:-2px;
   }
   .header-title-Insights {
     margin-left: 70px;
-    font-size: 2.4em;
-    max-width: 80%;
+    font-size: 2.8em;
+    max-width: 50%;
     margin-top: -50px;
   }
   .header-container-Error .button-primary {
@@ -1356,12 +1361,12 @@ margin-top:-2px;
   }
   .text-content-Bottom {
     flex: 1;
-    margin-right: 50px;
+    margin-right: 55px;
     font-size: 12px;
     font-weight: bold;
   }
   .heading-Bottom {
-    font-size: 30px;
+    font-size: 35px;
     margin: 0 0 10px 0;
     margin-left: 100px;
     font-weight: 700;
@@ -1403,7 +1408,8 @@ margin-top:-2px;
 @media (min-width: 1921px) and (max-width: 2560px) {
   .header-title-Api {
     margin-left: 200px;
-    font-size: 4.5em;
+    font-size: 4.2em;
+    width:100%;
     margin-top: -10px;
   }
   .header-title-Flow {
@@ -1414,7 +1420,7 @@ margin-top:-2px;
   .header-logo-Api {
     width: 40%;
     max-width: 2560px;
-    margin-left: -40px;
+    margin-left: 20px;
     margin-right: 290px;
     margin-top: -60px;
   }
@@ -1428,29 +1434,32 @@ margin-top:-2px;
     margin-left: 70px;
   }
   .header-p-Error {
-    margin-left: 30px;
+    margin-left: 350px;
     margin-right: 350px;
     padding-right: 70px;
-    font-size: 1.5em;
+    font-size: 2.5em;
+    width:80%;
     margin-top: -10px;
   }
   .header-p,
   .header-p-Insights {
     margin-left: 350px;
     padding-right: 70px;
-    font-size: 1.5em;
+    font-size: 2.5em;
+    width:50%;
     margin-top: -10px;
   }
   .header-p {
     margin-left: 200px;
     padding-right: 50px;
     font-size: 2em;
+    width:80%;
     margin-top: -10px;
   }
   .header-p-Flow {
     margin-left: 100px;
     padding-right: 70px;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-right: 450px;
     margin-top: -10px;
   }
@@ -1463,29 +1472,29 @@ margin-top:-2px;
     width: 23%;
     height: auto;
     margin-top: -10px;
-    margin-left: 350px;
+    margin-left: 200px;
   }
   .header-logo-Insights {
     width: 30%;
     height: auto;
-    margin-left: 1500px;
-    margin-top: -600px;
+    margin-left: 1550px;
+    margin-top: -700px;
   }
   .header-logo-Flow {
     width: 20%;
     height: auto;
     margin-top: -5px;
-    margin-left: 350px;
+    margin-left: 250px;
   }
   .header-title-Error,
   .header-title-Insights {
-    margin-left: 20px;
-    font-size: 3em;
+    margin-left: 350px;
+    font-size: 4em;
     margin-top: -10px;
   }
   .header-title-Insights {
     margin-left: 350px;
-    font-size: 3em;
+    font-size: 4em;
     margin-top: -10px;
   }
   .header-container-Error .button-primary {
@@ -1537,14 +1546,14 @@ margin-top:-2px;
     font-weight: bold;
   }
   .heading-Bottom {
-    font-size: 44px;
+    font-size: 60px;
     margin: 0 0 10px 0;
-    margin-left: 30px;
+    margin-left: 250px;
     font-weight: 700;
   }
   .content-Bottom {
-    font-size: 36px;
-    margin-left: 550px;
+    font-size: 45px;
+    margin-left: 700px;
     margin-top: -20px;
     margin-bottom: 10px;
   }
@@ -1584,11 +1593,11 @@ margin-top:-2px;
 }
 
 .header-logo-Api {
-  width: 40%;
+  width: 38%;
   height: auto;
   object-fit: inherit;
   border-radius: 0;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-top: 30px;
   max-width: 100%;
   margin-right: 80px;
@@ -1597,10 +1606,10 @@ margin-top:-2px;
 
 .header-p {
   margin-top: 0px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin: 0;
   padding-right: 30px;
-  width: 90%;
+  width: 85%;
   margin-left: 150px;
 }
 
@@ -1657,10 +1666,10 @@ margin-top:-2px;
 
 .header-logo-Insights {
   width: 35%;
-  height: 85%;
+  height: 60%;
   object-fit: inherit;
   border-radius: 4px;
-  margin-left: 770px;
+  margin-left:900px;
   margin-top: -500px;
 }
 
@@ -1669,7 +1678,7 @@ margin-top:-2px;
   font-size: 1.4em;
   margin: 0;
   padding-right: 30px;
-  width: 100%;
+  width: 50%;
   margin-left: 150px;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import './APIMonitoring.css';
+import './APIMonitorings.css';
 import API from '../../Images/API.webp';
 import TrustedComp from '../TrustedComp/TrustedComp';
 import Deploy from '../../Images/Deploy.webp';
@@ -59,7 +59,7 @@ const APIMonitoring = () => {
     <div className="header-container-Flow ">
     <img src={Insights} alt="Company Logo" className="header-logo-Flow" />
       <div>
-     <h2 className="header-title-Flow">Improve Operational <l>Flow</l></h2>
+     <h2 className="header-title-Flow">Improve Operational <l>Flow</l></h2><br/><br/>
      <p className='header-p-Flow'>Address API issues proactively and adjust your systems for better
       interaction,which helps maintain a steady and responsive service
        environment

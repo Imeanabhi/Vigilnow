@@ -1,5 +1,5 @@
 import React from 'react';
-import '../APIMonitoring/APIMonitoring.css';
+import '../APIMonitoring/APIMonitorings.css';
 import  Health from '../../Images/Health Checks.webp';
 import TrustedComp from '../TrustedComp/TrustedComp';
 import Up from '../../Images/Up.webp';

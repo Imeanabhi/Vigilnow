@@ -1,5 +1,5 @@
 import React from 'react';
-import '../APIMonitoring/APIMonitoring.css';
+import '../APIMonitoring/APIMonitorings.css';
 import Job from '../../Images/Job.webp';
 import TrustedComp from '../TrustedComp/TrustedComp.jsx';
 import Track from '../../Images/Tracking.webp';
